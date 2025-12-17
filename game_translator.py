@@ -118,9 +118,10 @@ def main():
         print(f"  {translator.get_translation('game.settings')}")
         print(f"  {translator.get_translation('game.score')}")
     
-    # Save example translations
-    translator.save_to_file("game_translations.json")
-    print("\n\nTranslations saved to game_translations.json")
+    # Note: Not saving to avoid overwriting the comprehensive translation file
+    # To save these demo translations, uncomment the line below:
+    # translator.save_to_file("demo_translations.json")
+    print("\n\n(Demo complete - translations not saved to preserve existing file)")
 
 
 if __name__ == "__main__":
