@@ -1,0 +1,52 @@
+{
+  "game.start": {
+    "en": "Start Game",
+    "ko": "게임 시작",
+    "ja": "ゲーム開始"
+  },
+  "game.quit": {
+    "en": "Quit",
+    "ko": "종료",
+    "ja": "終了"
+  },
+  "game.settings": {
+    "en": "Settings",
+    "ko": "설정",
+    "ja": "設定"
+  },
+  "game.score": {
+    "en": "Score",
+    "ko": "점수",
+    "ja": "スコア"
+  },
+  "game.level": {
+    "en": "Level",
+    "ko": "레벨",
+    "ja": "レベル"
+  },
+  "game.play": {
+    "en": "Play",
+    "ko": "플레이",
+    "ja": "プレイ"
+  },
+  "game.pause": {
+    "en": "Pause",
+    "ko": "일시정지",
+    "ja": "一時停止"
+  },
+  "game.resume": {
+    "en": "Resume",
+    "ko": "재개",
+    "ja": "再開"
+  },
+  "game.gameover": {
+    "en": "Game Over",
+    "ko": "게임 오버",
+    "ja": "ゲームオーバー"
+  },
+  "game.victory": {
+    "en": "Victory!",
+    "ko": "승리!",
+    "ja": "勝利！"
+  }
+}
