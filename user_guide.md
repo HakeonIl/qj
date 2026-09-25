@@ -52,38 +52,49 @@ python trans4/02_translate/run_translation.py
 ```
 *(또는 `python trans4/02_translate/translator.py --input-file "trans4/output/japanese_texts.txt"`)*
 
-### 진행 상황 모니터링
-*   번역은 시간이 꽤 걸립니다 (텍스트 양에 따라 수십 분 ~ 수 시간).
-*   `trans4/output/chunks/` 폴더에 `chunk_000.txt`, `chunk_001.txt`... 형태로 번역된 조각 파일들이 실시간으로 생성됩니다.
-*   중간에 멈추거나 에러가 나도, 다시 실행하면 안 된 부분부터 이어서 진행합니다(구현 예정).
+### 토큰 절약 방식 (v3)
+*   LLM에는 제어문자(`\F[...]`, `\AA[...]`, `\|`, `\!` 등)를 뺀 **순수 문장만** 보냅니다. 태그는 `text_codec.py`가 번역 후 코드로 복원하므로 저가 모델이 태그를 망가뜨릴 수 없습니다.
+*   문장 중간의 `\V[n]`, `%1` 같은 값은 `{1}`로 바꿔 보내고, 번역문에서 빠지면 그 줄만 다시 요청합니다.
+*   같은 문장은 한 번만 번역하고, `glossary.json`의 `고정_번역`과 정확히 일치하는 줄은 LLM을 거치지 않습니다.
+*   요청 형식은 JSON 대신 `ID|화자|원문` 한 줄 형식이며, 응답도 `ID|번역`만 받습니다.
+*   `translation_settings.max_concurrent` 만큼 동시에 요청합니다.
+
+### 진행 상황 / 이어하기
+*   번역된 문장은 `output/translated_texts.cache.json`에 계속 저장됩니다. 중간에 끊겨도 다시 실행하면 캐시된 문장은 건너뜁니다.
+*   끝까지 실패한 줄은 원문을 유지하고 `output/translated_texts.failed.jsonl`에 사유와 함께 기록됩니다.
+*   `--dry-run` 옵션으로 API 호출 없이 실제로 전송될 프롬프트를 확인할 수 있습니다.
+*   API 키는 `config.json`에 넣거나 환경변수(`DEEPSEEK_API_KEY` 등)로 지정합니다.
 
 ### 결과 확인
-*   모든 청크 파일이 생성되면 `trans4/output/korean_texts.txt` (또는 병합된 결과물)가 생성됩니다.
+*   `output/translated_texts.txt`에 원본과 같은 순서·같은 줄 수로 저장됩니다.
 
 ---
 
 ## 3. 병합 (Merge) 단계
 
-번역된 한국어 텍스트를 게임 파일에 덮어쓰는 과정입니다.
-
-### ⚠️ 주의사항
-*   **반드시 원본 데이터 폴더(`새 폴더` 또는 `data`)를 백업해두세요!**
-*   실수로 원본이 훼손되면 게임 실행이 불가능해질 수 있습니다.
+번역된 한국어 텍스트를 게임 파일에 넣는 과정입니다. **원본 폴더는 수정하지 않고**, 지정한 출력 폴더에 번역이 적용된 복사본을 만듭니다.
 
 ### 실행 명령어
 ```bash
-python trans4/03_merge/merger.py --base-dir "새 폴더" --mapping-file "trans4/output/mapping.json" --translation-file "trans4/output/korean_texts.txt"
+python 03_merge/merger.py --data-dir "원본_data_폴더" --output-dir "번역본/data"
 ```
-*(참고: `korean_texts.txt`는 번역 단계에서 생성된 최종 결과 파일명이어야 합니다. 청크 파일들을 하나로 합친 파일입니다.)*
 
 ### 파라미터 설명
-*   `--base-dir`: 텍스트를 덮어쓸 게임 데이터 폴더입니다.
-*   `--mapping-file`: 추출 단계에서 만든 `mapping.json` 파일 경로입니다.
-*   `--translation-file`: 번역된 한국어 텍스트 파일 경로입니다.
+*   `--data-dir`: 원본 게임 데이터 폴더입니다. 읽기만 합니다.
+*   `--output-dir`: 번역이 적용된 data 폴더가 만들어질 위치입니다. 원본 폴더와 같으면 실행을 거부합니다.
+*   `--mapping`: 기본값 `output/mapping.json`
+*   `--translations`: 기본값 `output/translated_texts.txt`. risky 번역본이 있으면 뒤에 함께 적습니다.
+*   `--include-risky`: 스크립트·주석 등 risky 번역도 적용합니다. (기본은 제외)
+
+### 안전장치
+*   번역 줄과 매핑을 `line_index`로 1:1 연결합니다. 번역 파일 줄 수나 `page_id`가 맞지 않으면 **아무것도 쓰지 않고 중단**합니다.
+*   적용 직전에 게임 파일의 원문이 추출 당시(`original_key`)와 같은지 확인합니다. 게임이 업데이트되어 원문이 바뀐 곳은 건너뜁니다.
+*   번역문의 제어문자(모양·개수·순서)가 원문과 하나라도 다르면 그 줄은 적용하지 않습니다.
+*   `note`, `faceName` 같은 파일명·플러그인 설정 경로는 적용하지 않습니다.
+*   건너뛴 줄은 `output/merge_report.jsonl`에 사유와 함께 기록됩니다.
 
 ### 결과 확인
-*   `새 폴더` 안의 JSON 파일들이 수정됩니다.
-*   게임(Game.exe)을 실행하여 한글이 나오는지 확인합니다.
+*   출력 폴더의 data를 게임 폴더의 data와 바꿔 넣고 게임(Game.exe)을 실행해 확인합니다.
 
 ---
 

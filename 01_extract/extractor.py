@@ -9,6 +9,17 @@ from pathlib import Path
 from typing import Dict, List, Tuple, Optional, Any
 
 
+# 번역하면 게임이 깨질 수 있는 키 (파일명, 플러그인 메타데이터, 오디오 설정 등)
+PROTECTED_KEYS = {
+    "note", "faceName", "characterName", "battlerName", "tilesetNames",
+    "title1Name", "title2Name", "parallaxName", "battleback1Name", "battleback2Name",
+    "animation1Name", "animation2Name", "effectName", "locale",
+    "bgm", "bgs", "me", "se", "sounds", "titleBgm", "battleBgm",
+    "victoryMe", "defeatMe", "gameoverMe", "boat", "ship", "airship",
+    "list",  # Troops 등의 이벤트 명령은 재귀 추출하지 않음 (스크립트가 섞일 수 있음)
+}
+
+
 class SmartTextExtractor:
     def __init__(self, skip_names=False, maps_only=False):
         self.global_line_index = 0
@@ -121,6 +132,11 @@ class SmartTextExtractor:
             
             code = cmd.get('code', 0)
             params = cmd.get('parameters', [])
+
+            # 새 메시지 창마다 화자를 갱신 (이름 없는 창이면 화자 없음)
+            if code == 101:
+                name = str(params[4]).strip() if len(params) > 4 else ""
+                self.current_speaker = name or None
             
             result = self.extract_text_from_parameters(params, code)
             
@@ -201,6 +217,8 @@ class SmartTextExtractor:
         
         if isinstance(data, dict):
             for key, value in data.items():
+                if key in PROTECTED_KEYS:
+                    continue
                 new_path = f"{current_path}.{key}"
                 # 키 이름에 '.'이 포함된 경우 처리 (["key.name"] 형태가 되어야 함)
                 # 여기서는 단순화를 위해 표준 점 표기법 사용하되, 특수 문자는 주의 필요
@@ -278,7 +296,7 @@ class SmartTextExtractor:
                     page_id = f"map{map_num:03d}_ev{event_id}_p{page_idx}"
                     commands = page.get('list', [])
                     
-                    self.current_speaker = event_name
+                    self.current_speaker = None
                     
                     texts = self.process_event_commands(
                         commands, page_id, f"Map{map_num:03d}.json", 
@@ -313,7 +331,7 @@ class SmartTextExtractor:
                 
                 page_id = f"common{event_id:03d}"
                 
-                self.current_speaker = event_name
+                self.current_speaker = None
                 
                 texts = self.process_event_commands(
                     commands, page_id, "CommonEvents.json", f"$[{event_idx}]"
@@ -461,19 +479,29 @@ class SmartTextExtractor:
         
         normal_count = 0
         risky_count = 0
+        line_index = 0
+        page_counts: Dict[str, int] = {}
         
         with open(output_dir / "japanese_texts.txt", 'w', encoding='utf-8') as f_normal, \
              open(output_dir / "japanese_risky.txt", 'w', encoding='utf-8') as f_risky:
             
             for page in all_pages:
                 for speaker, text, text_type in page["lines"]:
+                    mapping = self.mappings[line_index]
+                    assert mapping["page_id"] == page["page_id"], "추출 순서와 매핑 순서 불일치"
+                    mapping["type"] = text_type
+                    mapping["line_in_page"] = page_counts.get(page["page_id"], 0)
+                    page_counts[page["page_id"]] = mapping["line_in_page"] + 1
+
                     json_line = {
+                        "line_index": line_index,
                         "page_id": page["page_id"],
                         "speaker": speaker,
                         "text": text,
                         "type": text_type
                     }
                     line_str = json.dumps(json_line, ensure_ascii=False) + "\n"
+                    line_index += 1
                     
                     if str(text_type).startswith("risky_"):
                         f_risky.write(line_str)
@@ -487,7 +515,7 @@ class SmartTextExtractor:
             "metadata": {
                 "total_lines": self.global_line_index,
                 "total_pages": len(all_pages),
-                "extractor_version": "v4_smart",
+                "extractor_version": "v5",
                 "normal_lines": normal_count,
                 "risky_lines": risky_count
             },

@@ -1,328 +1,257 @@
+"""
+RPG Maker 번역기 v3 (토큰 최소화)
+
+LLM에게는 제어문자를 뺀 순수 문장만, 중복 없이, 짧은 `ID|화자|원문` 형식으로 보낸다.
+- 제어문자: text_codec 이 떼어냈다가 원본 문자열로 복원, 태그 모양·개수·순서가 원문과 다르면 거부
+- 중복 제거: 같은 문장은 한 번만 번역
+- 고정 번역: glossary 의 고정_번역과 정확히 일치하면 LLM 호출 없이 치환
+- 줄 단위 검증: 실패한 줄만 모아서 재요청 (배치 전체 재시도 X)
+- 캐시: 번역된 문장은 cache 파일에 저장 → 중단 후 재실행 시 이어서 진행
+"""
 import os
 import json
 import re
-import time
 import asyncio
-import aiohttp
 import argparse
+from pathlib import Path
 from typing import List, Dict, Any, Optional
 
+import aiohttp
+
+from text_codec import encode, decode, DecodeError, Encoded
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+LINE_RE = re.compile(r'^\s*(\d+)\s*\|(.*)$')
+
+
+class Unit:
+    """LLM에 보낼 번역 단위 (중복 제거된 문장 하나)"""
+    def __init__(self, uid: int, enc: Encoded, speaker: str):
+        self.uid = uid
+        self.enc = enc
+        self.speaker = speaker
+        self.result: Optional[str] = None
+        self.last_error = ''
+
+
 class Translator:
-    def __init__(self, config_path: str = "trans4/config/config.json", base_path: str = "trans4"):
-        self.base_path = base_path
-        self.config = self._load_config(config_path)
+    def __init__(self, config_path: Path = BASE_DIR / "config/config.json", base_path: Path = BASE_DIR):
+        self.base_path = Path(base_path)
+        self.config = self._load_json(Path(config_path))
+        self.settings = self.config.get("translation_settings", {})
+        self.fixed, glossary_text = self._load_glossary()
+        self.system_prompt = self._build_system_prompt(glossary_text)
         self.client_session: Optional[aiohttp.ClientSession] = None
-        self.speech_patterns = self._load_speech_patterns()
-        self.glossary = self._load_glossary()
-        self.prompt_template = self._load_prompt_template()
-        self.separator = "␟"  # Unit Separator (U+241F)
+        self.semaphore = asyncio.Semaphore(self.settings.get("max_concurrent", 8))
+        self.usage = {"prompt_tokens": 0, "completion_tokens": 0, "requests": 0}
 
-    def _load_config(self, path: str) -> Dict[str, Any]:
-        with open(path, 'r', encoding='utf-8') as f:
-            return json.load(f)
-
-    def _load_speech_patterns(self) -> str:
-        path = os.path.join(self.base_path, "config/character_speech_patterns.json")
+    @staticmethod
+    def _load_json(path: Path, default=None):
         try:
             with open(path, 'r', encoding='utf-8') as f:
-                return json.dumps(json.load(f), ensure_ascii=False, indent=2)
+                return json.load(f)
         except FileNotFoundError:
-            return "{}"
+            if default is not None:
+                return default
+            raise
 
-    def _load_glossary(self) -> str:
-        path = os.path.join(self.base_path, "config/glossary.json")
-        try:
-            with open(path, 'r', encoding='utf-8') as f:
-                glossary = json.load(f)
-                
-                # Check for "고정_번역" (Fixed Translations) structure
-                glossary_list = []
-                if isinstance(glossary, dict):
-                     # Handle { "고정_번역": { "key": "value", ... } }
-                     fixed_trans = glossary.get("고정_번역", {})
-                     for k, v in fixed_trans.items():
-                         glossary_list.append(f"{k} -> {v}")
-                         
-                     # Handle "번역_안함" if necessary
-                     no_trans = glossary.get("번역_안함", [])
-                     for k in no_trans:
-                         glossary_list.append(f"{k} -> {k} (Do Not Translate)")
+    def _load_glossary(self):
+        glossary = self._load_json(self.base_path / "config/glossary.json", {})
+        fixed = dict(glossary.get("고정_번역", {})) if isinstance(glossary, dict) else {}
+        for k in (glossary.get("번역_안함", []) if isinstance(glossary, dict) else []):
+            fixed[k] = k
+        return fixed, "\n".join(f"{k} = {v}" for k, v in fixed.items()) or "(없음)"
 
-                elif isinstance(glossary, list):
-                    # Handle list of dicts: [{ "original": "...", "translated": "..." }, ...]
-                    for item in glossary:
-                        if isinstance(item, dict) and 'original' in item and 'translated' in item:
-                            glossary_list.append(f"{item['original']} -> {item['translated']}: {item.get('notes', '')}")
-                
-                return "\n".join(glossary_list)
-        except FileNotFoundError:
-            return ""
+    def _build_system_prompt(self, glossary_text: str) -> str:
+        # 말투 설정은 캐릭터당 한 줄로 압축. 매 요청 동일한 앞부분이라 API의 프롬프트 캐시에 걸린다.
+        patterns = self._load_json(self.base_path / "config/character_speech_patterns.json", {})
+        speech_lines = []
+        for name, info in patterns.get("characters", {}).items():
+            ko = self.fixed.get(name, name)
+            tone = info.get("prompt_summary") or info.get("default_speaking_tone", "")
+            speech_lines.append(f"- {name}({ko}): {tone}")
+        template = (self.base_path / "02_translate/prompt_compact.md").read_text(encoding='utf-8')
+        # str.format 은 {1} 자리표시자와 충돌하므로 replace 사용
+        return (template.replace("{glossary_text}", glossary_text)
+                        .replace("{speech_text}", "\n".join(speech_lines) or "(없음)"))
 
-    def _load_prompt_template(self) -> str:
-        path = os.path.join(self.base_path, "02_translate/prompt_base_v2.md")
-        with open(path, 'r', encoding='utf-8') as f:
-            return f.read()
+    # ---------- LLM 호출 ----------
 
     async def _get_client_session(self) -> aiohttp.ClientSession:
         if self.client_session is None or self.client_session.closed:
-            self.client_session = aiohttp.ClientSession()
+            self.client_session = aiohttp.ClientSession(timeout=aiohttp.ClientTimeout(total=300))
         return self.client_session
 
     async def close(self):
         if self.client_session:
             await self.client_session.close()
 
-    def _construct_prompt(self, chunk_list: List[str]) -> str:
-        # Convert list to JSON string for the prompt
-        chunk_text = json.dumps(chunk_list, ensure_ascii=False, indent=2)
-        return self.prompt_template.format(
-            glossary_text=self.glossary,
-            speech_patterns_text=self.speech_patterns
-        ) + "\n\n**JSON Array to Translate:**\n```json\n" + chunk_text + "\n```"
-
-    async def translate_chunk(self, chunk: List[Dict[str, Any]], attempt: int = 1) -> List[Dict[str, Any]]:
-        """
-        Translates a list of JSON objects (a chunk) using the optimized array format.
-        """
+    async def _call_llm(self, user_prompt: str) -> str:
         model_key = self.config.get("translator_model", "deepseek")
         model_config = self.config["models"][model_key]
-        
-        # 1. Transform to Optimized Format (Speaker␟Text)
-        optimized_input = []
-        for item in chunk:
-            speaker = item.get('speaker', '') or ''
-            text = item.get('text', '')
-            optimized_input.append(f"{speaker}{self.separator}{text}")
+        api_key = model_config.get("api_key") or os.environ.get(f"{model_key.upper()}_API_KEY", "")
+        endpoint = model_config["endpoint"].rstrip("/")
+        if not endpoint.endswith("/chat/completions"):
+            endpoint += "/chat/completions"
 
-        prompt = self._construct_prompt(optimized_input)
-
-        # Max retries handling
-        max_retries = 3
-        if attempt > max_retries:
-            print(f"❌ Max retries exceeded for chunk.")
-            return []
-
-        try:
-            response_text = await self._call_llm(model_config, prompt)
-            translated_lines_raw = self._parse_response(response_text)
-            
-            # 2. Reconstruct & Validate
-            reconstructed_chunk = self._reconstruct_chunk(chunk, translated_lines_raw)
-            
-            if reconstructed_chunk and self._validate_translation(chunk, reconstructed_chunk):
-                return reconstructed_chunk
-            else:
-                print(f"⚠️ Validation failed (Attempt {attempt}). Retrying...")
-                return await self.translate_chunk(chunk, attempt + 1)
-
-        except Exception as e:
-            print(f"🔥 Error in translation (Attempt {attempt}): {e}")
-            return await self.translate_chunk(chunk, attempt + 1)
-
-    async def _call_llm(self, model_config: Dict[str, Any], prompt: str) -> str:
-        api_key = model_config["api_key"]
-        endpoint = model_config["endpoint"] + "/chat/completions"
-        model_name = model_config["model_name"]
-        
-        headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {api_key}"
-        }
-        
         payload = {
-            "model": model_name,
+            "model": model_config["model_name"],
             "messages": [
-                {"role": "system", "content": "You are a professional game translator."},
-                {"role": "user", "content": prompt}
+                {"role": "system", "content": self.system_prompt},
+                {"role": "user", "content": user_prompt},
             ],
-            "temperature": self.config["translation_settings"].get("temperature", 0.3),
-            "stream": False
+            "temperature": self.settings.get("temperature", 0.3),
+            "stream": False,
         }
+        headers = {"Content-Type": "application/json", "Authorization": f"Bearer {api_key}"}
 
         session = await self._get_client_session()
-        async with session.post(endpoint, headers=headers, json=payload) as resp:
-            if resp.status != 200:
-                error_text = await resp.text()
-                raise Exception(f"API Error {resp.status}: {error_text}")
-            
-            data = await resp.json()
-            return data["choices"][0]["message"]["content"]
+        async with self.semaphore:
+            async with session.post(endpoint, headers=headers, json=payload) as resp:
+                if resp.status != 200:
+                    raise RuntimeError(f"API Error {resp.status}: {await resp.text()}")
+                data = await resp.json()
+        usage = data.get("usage") or {}
+        self.usage["prompt_tokens"] += usage.get("prompt_tokens", 0)
+        self.usage["completion_tokens"] += usage.get("completion_tokens", 0)
+        self.usage["requests"] += 1
+        return data["choices"][0]["message"]["content"]
 
-    def _parse_response(self, response_text: str) -> List[str]:
-        """
-        Extracts the JSON array of strings from the LLM response.
-        """
-        # Remove markdown code blocks if present
-        cleaned_text = re.sub(r'```json\s*', '', response_text)
-        cleaned_text = re.sub(r'```\s*', '', cleaned_text)
-        
+    # ---------- 배치 번역 ----------
+
+    @staticmethod
+    def build_user_prompt(units: List[Unit]) -> str:
+        return "\n".join(f"{u.uid}|{u.speaker}|{u.enc.core}" for u in units)
+
+    @staticmethod
+    def parse_response(text: str) -> Dict[int, str]:
+        out: Dict[int, str] = {}
+        for line in text.splitlines():
+            m = LINE_RE.match(line.strip().strip('`'))
+            if m:
+                out.setdefault(int(m.group(1)), m.group(2).strip())
+        return out
+
+    async def translate_units(self, units: List[Unit]):
+        """배치를 번역하고, 검증에 통과한 줄은 확정. 실패한 줄은 남겨둔다."""
         try:
-            # Try to find the JSON array in the text
-            start_idx = cleaned_text.find('[')
-            end_idx = cleaned_text.rfind(']')
-            if start_idx != -1 and end_idx != -1:
-                json_str = cleaned_text[start_idx:end_idx+1]
-                return json.loads(json_str)
-            else:
-                # Fallback: try parsing the whole text
-                return json.loads(cleaned_text)
-        except json.JSONDecodeError as e:
-            print(f"⚠️ Failed to parse JSON response: {e}")
-            return []
-
-    def _reconstruct_chunk(self, original_chunk: List[Dict[str, Any]], translated_lines_raw: List[str]) -> Optional[List[Dict[str, Any]]]:
-        """
-        Merges the translated strings back into the original JSON objects.
-        """
-        if len(original_chunk) != len(translated_lines_raw):
-            print(f"❌ Length mismatch during reconstruction. Original: {len(original_chunk)}, Translated: {len(translated_lines_raw)}")
-            return None
-
-        new_chunk = []
-        for i, (orig, trans_str) in enumerate(zip(original_chunk, translated_lines_raw)):
-            # Create a copy to avoid modifying the original in case of retry
-            new_item = orig.copy()
-            
-            parts = trans_str.split(self.separator)
-            
-            if len(parts) < 2:
-                # Separator missing!
-                print(f"❌ Separator '{self.separator}' missing in line {i}: {trans_str}")
-                return None
-            
-            # parts[0] is speaker (should match), parts[1] is text
-            # We can relax speaker check or enforce it. Let's just warn for now.
-            speaker_part = parts[0]
-            text_part = self.separator.join(parts[1:]) # In case text itself contains separator (unlikely)
-
-            # Optional: Check if speaker matches
-            # orig_speaker = orig.get('speaker', '') or ''
-            # if speaker_part != orig_speaker:
-            #     print(f"⚠️ Speaker mismatch in line {i}: '{orig_speaker}' vs '{speaker_part}'")
-            
-            new_item['text'] = text_part
-            new_chunk.append(new_item)
-            
-        return new_chunk
-
-    def _validate_translation(self, original: List[Dict[str, Any]], translated: List[Dict[str, Any]]) -> bool:
-        """
-        Strict validation logic (V2.1 compatible).
-        """
-        # 1. Line Count Check (Already checked in reconstruction, but good to double check)
-        if len(original) != len(translated):
-            return False
-
-        for i, (src, tgt) in enumerate(zip(original, translated)):
-            # 2. Structure Check (Type preservation)
-            if src.get("type") != tgt.get("type"):
-                print(f"❌ Type mismatch at line {i}.")
-                return False
-            
-            # 3. Control Characters Check
-            if not self._validate_tags(src.get("text", ""), tgt.get("text", "")):
-                 print(f"❌ Tag mismatch at line {i}.")
-                 return False
-
-        return True
-
-    def _validate_tags(self, src_text: str, tgt_text: str) -> bool:
-        """
-        Checks if control characters and tags are preserved.
-        """
-        tags_to_check = [
-            r"\\n", r"\\!", r"\\.", r"\\\|", r"\\^", 
-            r"\\C\[\d+\]", r"\\V\[\d+\]", r"\\N\[\d+\]", 
-            r"\\I\[\d+\]", r"\\G", r"\\\{", r"\\\}"
-        ]
-
-        for pattern in tags_to_check:
-            src_count = len(re.findall(pattern, src_text))
-            tgt_count = len(re.findall(pattern, tgt_text))
-            
-            if src_count != tgt_count:
-                print(f"   Tag mismatch: {pattern}. Src: {src_count}, Tgt: {tgt_count}")
-                return False
-        
-        return True
-
-    async def process_file(self, input_file: str, output_file: str, batch_size: int = 20):
-        print(f"Reading from {input_file}...")
-        try:
-            with open(input_file, 'r', encoding='utf-8') as f:
-                lines = [json.loads(line) for line in f if line.strip()]
+            parsed = self.parse_response(await self._call_llm(self.build_user_prompt(units)))
         except Exception as e:
-            print(f"Failed to load input file: {e}")
+            for u in units:
+                u.last_error = f"요청 실패: {e}"
             return
+        for u in units:
+            if u.uid not in parsed:
+                u.last_error = "응답에 해당 ID 없음"
+                continue
+            try:
+                decode(u.enc, parsed[u.uid])   # 태그 복원까지 실제로 해 보고 통과한 것만 채택
+                u.result = parsed[u.uid]
+            except DecodeError as e:
+                u.last_error = str(e)
 
-        total_lines = len(lines)
-        print(f"Loaded {total_lines} lines from {input_file}")
-        
-        translated_results = []
-        
-        # Create batches
-        batches = [lines[i:i + batch_size] for i in range(0, total_lines, batch_size)]
-        
-        for i, batch in enumerate(batches):
-            print(f"Processing batch {i+1}/{len(batches)} ({len(batch)} lines)...")
-            translated_batch = await self.translate_chunk(batch)
-            if translated_batch:
-                translated_results.extend(translated_batch)
-            else:
-                # Fallback: keep original if translation fails completely
-                print(f"⚠️ Batch {i+1} failed completely. Keeping original.")
-                translated_results.extend(batch)
-            
-            # Save progress periodically
-            if (i + 1) % 5 == 0:
-                self._save_results(output_file, translated_results)
-                print(f"  -- Progress saved ({len(translated_results)}/{total_lines}) --")
+    async def translate_all(self, units: List[Unit], batch_size: int, max_retries: int,
+                            on_progress=None):
+        pending = units
+        for attempt in range(max_retries + 1):
+            if not pending:
+                break
+            # 재시도는 작은 배치로 → 모델이 헷갈릴 여지를 줄임
+            size = batch_size if attempt == 0 else max(5, batch_size // (2 ** attempt))
+            batches = [pending[i:i + size] for i in range(0, len(pending), size)]
+            print(f"[{attempt + 1}회차] {len(pending)}문장 / {len(batches)}배치 (배치당 {size})")
 
-        # Final Save
-        self._save_results(output_file, translated_results)
-        print(f"Translation complete. Saved {len(translated_results)} lines to {output_file}")
+            async def run(batch):
+                await self.translate_units(batch)
+                if on_progress:
+                    on_progress(batch)
 
-    def _save_results(self, output_file: str, results: List[Dict[str, Any]]):
-        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+            await asyncio.gather(*(run(b) for b in batches))
+            pending = [u for u in pending if u.result is None]
+
+        return pending
+
+    # ---------- 파일 처리 ----------
+
+    async def process_file(self, input_file: Path, output_file: Path, batch_size: int, max_retries: int):
+        lines = [json.loads(l) for l in open(input_file, encoding='utf-8') if l.strip()]
+        cache_path = output_file.with_suffix(".cache.json")
+        cache: Dict[str, str] = self._load_json(cache_path, {})
+
+        encs = [encode(item.get("text", "")) for item in lines]
+        units_by_core: Dict[str, Unit] = {}
+        for item, enc in zip(lines, encs):
+            core = enc.core
+            if not enc.needs_llm or core in self.fixed or core in cache or core in units_by_core:
+                continue
+            units_by_core[core] = Unit(len(units_by_core) + 1, enc, item.get("speaker") or "")
+        units = list(units_by_core.values())
+
+        src_chars = sum(len(item.get("text", "")) for item in lines)
+        send_chars = sum(len(u.enc.core) for u in units)
+        print(f"입력 {len(lines)}줄 ({src_chars:,}자) → LLM 전송 {len(units)}문장 ({send_chars:,}자), "
+              f"캐시 {len(cache)}문장 재사용")
+
+        def save_cache(batch):
+            for u in batch:
+                if u.result is not None:
+                    cache[u.enc.core] = u.result
+            tmp = cache_path.with_suffix(".tmp")
+            tmp.write_text(json.dumps(cache, ensure_ascii=False), encoding='utf-8')
+            tmp.replace(cache_path)
+
+        failed = await self.translate_all(units, batch_size, max_retries, on_progress=save_cache)
+
+        # 원래 줄 순서대로 복원
+        failed_log = []
+        output_file.parent.mkdir(parents=True, exist_ok=True)
         with open(output_file, 'w', encoding='utf-8') as f:
-            for item in results:
-                f.write(json.dumps(item, ensure_ascii=False) + "\n")
+            for item, enc in zip(lines, encs):
+                new_item = dict(item)
+                core = enc.core
+                translated = self.fixed.get(core, cache.get(core))
+                if enc.needs_llm and translated is None:
+                    failed_log.append({**item, "error": units_by_core[core].last_error})
+                elif enc.needs_llm:
+                    try:
+                        new_item["text"] = decode(enc, translated)
+                    except DecodeError as e:
+                        # 고정 번역/캐시 값이 이 줄의 태그 구성과 안 맞는 경우 → 원문 유지
+                        failed_log.append({**item, "error": str(e)})
+                f.write(json.dumps(new_item, ensure_ascii=False) + "\n")
 
-# --- Main Execution ---
+        failed_path = output_file.with_name(output_file.stem + ".failed.jsonl")
+        with open(failed_path, 'w', encoding='utf-8') as f:
+            for row in failed_log:
+                f.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+        print(f"완료: {output_file} / 실패 {len(failed)}문장 ({len(failed_log)}줄, 원문 유지) → {failed_path}")
+        print(f"토큰 사용량: {self.usage}")
+
+
 async def main():
-    parser = argparse.ArgumentParser(description="RPG Maker Translator")
-    parser.add_argument("--input-file", type=str, help="Path to input JSONL file")
-    parser.add_argument("--output-file", type=str, default="trans4/output/translated_texts.txt", help="Path to output file")
-    parser.add_argument("--batch-size", type=int, default=20, help="Batch size for translation")
+    parser = argparse.ArgumentParser(description="RPG Maker Translator (token-minimized)")
+    parser.add_argument("--input-file", type=Path, default=BASE_DIR / "output/japanese_texts.txt")
+    parser.add_argument("--output-file", type=Path, default=BASE_DIR / "output/translated_texts.txt")
+    parser.add_argument("--batch-size", type=int, default=60, help="요청 1회당 문장 수")
+    parser.add_argument("--max-retries", type=int, default=3)
+    parser.add_argument("--dry-run", action="store_true", help="API 호출 없이 전송될 프롬프트만 출력")
     args = parser.parse_args()
 
     translator = Translator()
-    
-    if args.input_file:
-        await translator.process_file(args.input_file, args.output_file, args.batch_size)
-    else:
-        # Mock data for testing V2.1 Logic
-        test_chunk = [
-            {"page_id": "test_01", "speaker": "Hero", "text": "Hello, world!\\nThis is a test.", "type": "dialog"},
-            {"page_id": "test_01", "speaker": "Villain", "text": "Die!\\!", "type": "dialog"},
-            {"page_id": "test_01", "speaker": None, "text": "System message.", "type": "dialog"}
-        ]
-        
-        print("Starting translation test (V2.1 Optimized)...")
-        
-        # Simulate the transformation manually to show what's happening
-        optimized = []
-        for item in test_chunk:
-            speaker = item.get('speaker', '') or ''
-            text = item.get('text', '')
-            optimized.append(f"{speaker}{translator.separator}{text}")
-        
-        print(f"Optimized Prompt Payload:\n{json.dumps(optimized, indent=2, ensure_ascii=False)}")
-        
-        # NOTE: Actual API call will fail without keys, but logic flow is verified.
-        # result = await translator.translate_chunk(test_chunk)
-    
-    await translator.close()
+    if args.dry_run:
+        lines = [json.loads(l) for l in open(args.input_file, encoding='utf-8') if l.strip()][:args.batch_size]
+        units = [Unit(i + 1, encode(x["text"]), x.get("speaker") or "") for i, x in enumerate(lines)]
+        units = [u for u in units if u.enc.needs_llm]
+        print("=== system ===\n" + translator.system_prompt)
+        print("=== user ===\n" + Translator.build_user_prompt(units))
+        return
+
+    try:
+        await translator.process_file(args.input_file, args.output_file, args.batch_size, args.max_retries)
+    finally:
+        await translator.close()
+
 
 if __name__ == "__main__":
     asyncio.run(main())
