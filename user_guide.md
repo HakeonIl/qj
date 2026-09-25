@@ -52,13 +52,21 @@ python trans4/02_translate/run_translation.py
 ```
 *(또는 `python trans4/02_translate/translator.py --input-file "trans4/output/japanese_texts.txt"`)*
 
-### 진행 상황 모니터링
-*   번역은 시간이 꽤 걸립니다 (텍스트 양에 따라 수십 분 ~ 수 시간).
-*   `trans4/output/chunks/` 폴더에 `chunk_000.txt`, `chunk_001.txt`... 형태로 번역된 조각 파일들이 실시간으로 생성됩니다.
-*   중간에 멈추거나 에러가 나도, 다시 실행하면 안 된 부분부터 이어서 진행합니다(구현 예정).
+### 토큰 절약 방식 (v3)
+*   LLM에는 제어문자(`\F[...]`, `\AA[...]`, `\|`, `\!` 등)를 뺀 **순수 문장만** 보냅니다. 태그는 `text_codec.py`가 번역 후 코드로 복원하므로 저가 모델이 태그를 망가뜨릴 수 없습니다.
+*   문장 중간의 `\V[n]`, `%1` 같은 값은 `{1}`로 바꿔 보내고, 번역문에서 빠지면 그 줄만 다시 요청합니다.
+*   같은 문장은 한 번만 번역하고, `glossary.json`의 `고정_번역`과 정확히 일치하는 줄은 LLM을 거치지 않습니다.
+*   요청 형식은 JSON 대신 `ID|화자|원문` 한 줄 형식이며, 응답도 `ID|번역`만 받습니다.
+*   `translation_settings.max_concurrent` 만큼 동시에 요청합니다.
+
+### 진행 상황 / 이어하기
+*   번역된 문장은 `output/translated_texts.cache.json`에 계속 저장됩니다. 중간에 끊겨도 다시 실행하면 캐시된 문장은 건너뜁니다.
+*   끝까지 실패한 줄은 원문을 유지하고 `output/translated_texts.failed.jsonl`에 사유와 함께 기록됩니다.
+*   `--dry-run` 옵션으로 API 호출 없이 실제로 전송될 프롬프트를 확인할 수 있습니다.
+*   API 키는 `config.json`에 넣거나 환경변수(`DEEPSEEK_API_KEY` 등)로 지정합니다.
 
 ### 결과 확인
-*   모든 청크 파일이 생성되면 `trans4/output/korean_texts.txt` (또는 병합된 결과물)가 생성됩니다.
+*   `output/translated_texts.txt`에 원본과 같은 순서·같은 줄 수로 저장됩니다.
 
 ---
 
