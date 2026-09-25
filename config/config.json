@@ -2,7 +2,7 @@
     "selected_model": "deepseek",
     "models": {
         "deepseek": {
-            "api_key": "sk-f42ad80cf01e45d2a6a4c92e5ea04e27",
+            "api_key": "",
             "model_name": "deepseek-chat",
             "endpoint": "https://api.deepseek.com"
         },
