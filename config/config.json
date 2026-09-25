@@ -1,0 +1,37 @@
+{
+    "selected_model": "deepseek",
+    "models": {
+        "deepseek": {
+            "api_key": "sk-f42ad80cf01e45d2a6a4c92e5ea04e27",
+            "model_name": "deepseek-chat",
+            "endpoint": "https://api.deepseek.com"
+        },
+        "gemini": {
+            "model_name": "gemini-3-flash-preview",
+            "project_id": "project-a0ca7164-9c98-4294-aa6",
+            "region": "global"
+        },
+        "gpt": {
+            "api_key": "YOUR_OPENAI_API_KEY",
+            "model_name": "gpt-4o-mini",
+            "endpoint": "https://api.openai.com/v1/chat/completions"
+        },
+        "claude": {
+            "api_key": "YOUR_ANTHROPIC_API_KEY",
+            "model_name": "claude-3-5-sonnet-20240620",
+            "endpoint": "https://api.anthropic.com/v1/messages"
+        },
+        "grok": {
+            "api_key": "YOUR_XAI_API_KEY",
+            "model_name": "grok-beta",
+            "endpoint": "https://api.x.ai/v1/chat/completions"
+        }
+    },
+    "translation_settings": {
+        "max_concurrent": 50,
+        "line_break_length": 30,
+        "temperature": 0.3
+    },
+    "translator_model": "deepseek",
+    "retry_model": "deepseek"
+}

@@ -1,0 +1,119 @@
+# RPG Maker 번역 자동화 시스템 사용자 가이드
+
+이 문서는 RPG Maker 게임의 일본어 텍스트를 추출하고, AI로 번역한 후, 다시 게임에 적용하는 전체 과정을 설명합니다.
+
+---
+
+## 0. 사전 준비 (Prerequisites)
+
+### 0.1. 환경 설정
+*   **Python 3.10 이상**이 설치되어 있어야 합니다.
+*   터미널(CMD, PowerShell)에서 다음 명령어로 필수 라이브러리를 설치하세요.
+    ```bash
+    pip install aiohttp
+    ```
+    *(시스템 구동에 필요한 비동기 통신 라이브러리입니다)*
+
+### 0.2. 설정 파일 확인
+*   `trans4/config/config.json` 파일을 열어 다음 항목을 확인하세요.
+    *   `GEMINI_API_KEY`: Google Gemini API 키가 올바르게 입력되어 있어야 합니다.
+    *   `MODEL_NAME`: 사용할 모델명 (예: `gemini-pro`, `gemini-1.5-flash` 등).
+
+---
+
+## 1. 추출 (Extraction) 단계
+
+게임 데이터 파일에서 일본어 텍스트만 뽑아내는 과정입니다.
+
+### 실행 명령어
+```bash
+python trans4/01_extract/extractor.py --data-dir "새 폴더" --output-dir "trans4/output"
+```
+
+### 파라미터 설명
+*   `--data-dir`: 원본 게임 데이터(`Map*.json`, `CommonEvents.json` 등)가 들어있는 폴더 경로입니다. (예: `새 폴더`, `data` 등)
+*   `--output-dir`: 추출된 결과물이 저장될 폴더입니다.
+
+### 결과 확인
+`trans4/output/` 폴더에 다음 파일들이 생성되었는지 확인하세요.
+*   `japanese_texts.txt`: 번역할 일반 대사들이 들어있습니다.
+*   `japanese_risky.txt`: 스크립트나 주석 등 주의가 필요한 텍스트입니다.
+*   `mapping.json`: 나중에 번역문을 게임에 다시 넣을 때 필요한 '지도' 파일입니다.
+
+---
+
+## 2. 번역 (Translation) 단계
+
+추출된 텍스트를 AI에게 보내 한국어로 번역하는 과정입니다.
+
+### 실행 명령어
+```bash
+python trans4/02_translate/run_translation.py
+```
+*(또는 `python trans4/02_translate/translator.py --input-file "trans4/output/japanese_texts.txt"`)*
+
+### 진행 상황 모니터링
+*   번역은 시간이 꽤 걸립니다 (텍스트 양에 따라 수십 분 ~ 수 시간).
+*   `trans4/output/chunks/` 폴더에 `chunk_000.txt`, `chunk_001.txt`... 형태로 번역된 조각 파일들이 실시간으로 생성됩니다.
+*   중간에 멈추거나 에러가 나도, 다시 실행하면 안 된 부분부터 이어서 진행합니다(구현 예정).
+
+### 결과 확인
+*   모든 청크 파일이 생성되면 `trans4/output/korean_texts.txt` (또는 병합된 결과물)가 생성됩니다.
+
+---
+
+## 3. 병합 (Merge) 단계
+
+번역된 한국어 텍스트를 게임 파일에 덮어쓰는 과정입니다.
+
+### ⚠️ 주의사항
+*   **반드시 원본 데이터 폴더(`새 폴더` 또는 `data`)를 백업해두세요!**
+*   실수로 원본이 훼손되면 게임 실행이 불가능해질 수 있습니다.
+
+### 실행 명령어
+```bash
+python trans4/03_merge/merger.py --base-dir "새 폴더" --mapping-file "trans4/output/mapping.json" --translation-file "trans4/output/korean_texts.txt"
+```
+*(참고: `korean_texts.txt`는 번역 단계에서 생성된 최종 결과 파일명이어야 합니다. 청크 파일들을 하나로 합친 파일입니다.)*
+
+### 파라미터 설명
+*   `--base-dir`: 텍스트를 덮어쓸 게임 데이터 폴더입니다.
+*   `--mapping-file`: 추출 단계에서 만든 `mapping.json` 파일 경로입니다.
+*   `--translation-file`: 번역된 한국어 텍스트 파일 경로입니다.
+
+### 결과 확인
+*   `새 폴더` 안의 JSON 파일들이 수정됩니다.
+*   게임(Game.exe)을 실행하여 한글이 나오는지 확인합니다.
+
+---
+
+## 4. 정리 (Cleanup) 단계
+
+새로운 번역 작업을 시작하거나, `trans4/output` 폴더를 깨끗하게 비우고 싶을 때 사용합니다. 이전 작업의 잔여물이 다음 작업에 영향을 주지 않도록 할 때 유용합니다.
+
+### 실행 명령어
+```bash
+python trans4/clean_output.py
+```
+*(또는 `python trans4/clean_output.py -y` 명령어로 확인 절차 없이 즉시 삭제할 수 있습니다.)*
+
+### 기능 및 주의사항
+*   `trans4/output` 폴더 내의 **모든 파일과 하위 폴더**(`japanese_texts.txt`, `mapping.json`, 번역된 텍스트 파일 등)를 삭제합니다.
+*   실행 시 실수로 지우는 것을 방지하기 위해 **삭제 여부를 묻는 확인 메시지(`y/n`)**가 표시됩니다.
+*   **주의**: 아직 병합하지 않은 번역 결과물이 있다면 백업 후 실행하세요. 삭제된 파일은 복구할 수 없습니다.
+
+---
+
+## 5. 트러블슈팅 (Troubleshooting)
+
+### Q1. `ModuleNotFoundError: No module named 'aiohttp'` 오류가 떠요.
+*   **해결**: `pip install aiohttp` 명령어를 터미널에 입력하여 라이브러리를 설치해주세요.
+
+### Q2. 추출된 텍스트가 너무 적어요 / 이상해요.
+*   **해결**: `trans4/01_extract/extractor.py`의 정규식 설정이나 `mapping.json`을 확인해야 합니다. 개발자에게 문의하거나 `japanese_risky.txt`를 확인해보세요.
+
+### Q3. 번역 중 API 에러가 계속 발생해요.
+*   **해결**: `config.json`의 API 키가 유효한지 확인하거나, 할당량(Quota)을 초과했는지 확인하세요. 잠시 후 다시 시도해보세요.
+
+### Q4. 게임 실행 시 "SyntaxError" 또는 검은 화면이 떠요.
+*   **해결**: 번역 과정에서 제어 문자(`\C[0]`, `\V[1]` 등)가 깨졌거나, 스크립트 코드(`risky` 항목)를 잘못 건드린 경우입니다. 백업한 원본으로 복구하고, `japanese_risky.txt` 내용을 제외하거나 검수 후 병합하세요.

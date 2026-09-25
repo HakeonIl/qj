@@ -1,0 +1,1475 @@
+{"page_id": "map001_ev5_p0", "speaker": "미아", "text": "\\F[metoziKomaru]처음으로 제대로 해본 아르바이트… 이렇게 힘들 줄이야….", "type": "dialog"}
+{"page_id": "map001_ev5_p0", "speaker": "미아", "text": "\\F[metoziKomaru]게다가… 점장님과 사귀게 될 줄이야….", "type": "dialog"}
+{"page_id": "map001_ev5_p0", "speaker": "미아", "text": "우우… 이렇게 나쁜 사람인 줄은 몰랐어….", "type": "dialog"}
+{"page_id": "map001_ev5_p0", "speaker": "미아", "text": "케타가 돌아올 때까지 참는 수밖에 없어… 그렇지….", "type": "dialog"}
+{"page_id": "map001_ev5_p0", "speaker": "미아", "text": "\\F[metoziKomaru]내 생활비를 위해서… 그리고 케타를 위해서….", "type": "dialog"}
+{"page_id": "map001_ev5_p0", "speaker": "미아", "text": "어쩔 수 없는 일이야, 응… 괜찮아. 참을 수 있어….", "type": "dialog"}
+{"page_id": "map001_ev5_p0", "speaker": "미아", "text": "\\F[kanasimi]빨리 자야지…。 안녕히 주무세요….", "type": "dialog"}
+{"page_id": "map001_ev5_p0", "speaker": "미아", "text": "그리고 미아는 잠이 들었다….", "type": "dialog"}
+{"page_id": "map001_ev5_p2", "speaker": "미아", "text": "…….", "type": "dialog"}
+{"page_id": "map001_ev6_p0", "speaker": "미아", "text": "미아는 술집 개점 시간까지 빈둥거렸다…。\\!", "type": "dialog"}
+{"page_id": "map001_ev6_p2", "speaker": "미아", "text": "미아는 술집 개점 시간까지 빈둥거렸다…。\\!", "type": "dialog"}
+{"page_id": "map001_ev7_p0", "speaker": "미아", "text": "\\F[kanasimi]…….", "type": "dialog"}
+{"page_id": "map001_ev7_p0", "speaker": "미아", "text": "3. 「스테이터스를 올리는 것」「세밀하게 탐색하는 것」 등으로", "type": "dialog"}
+{"page_id": "map001_ev12_p1", "speaker": "미아", "text": "…….", "type": "dialog"}
+{"page_id": "map001_ev12_p1", "speaker": "미아", "text": "…….", "type": "dialog"}
+{"page_id": "map001_ev12_p1", "speaker": "미아", "text": "\\!………。\\!", "type": "dialog"}
+{"page_id": "map001_ev13_p2", "speaker": "미아", "text": "미아는 첫 리토나 마을 데이트를 떠올리며 잠이 들었다….", "type": "dialog"}
+{"page_id": "map001_ev13_p8", "speaker": "\\AA[N]\\F[NmetoziKomaru1]흐음… 난 만족 못 했으니까", "text": "…….", "type": "dialog"}
+{"page_id": "map001_ev13_p8", "speaker": "미아", "text": "（우우… 이런 거 옷이 아니잖아… 반올림하면 끈이야…。", "type": "dialog"}
+{"page_id": "map001_ev13_p8", "speaker": null, "text": "시원해서 부끄러워……。）", "type": "name"}
+{"page_id": "map001_ev13_p8", "speaker": "（\"가끔 저속한 차림도 하면 남자는 갭에 반해서 헤롱헤롱해진다\"", "text": "라고 레그나스 씨도 알려줬으니까…。）", "type": "dialog"}
+{"page_id": "map001_ev13_p8", "speaker": "（\"가끔 저속한 차림도 하면 남자는 갭에 반해서 헤롱헤롱해진다\"", "text": "(\\!…좋아, 가자…。）", "type": "dialog"}
+{"page_id": "map001_ev13_p8", "speaker": "케타", "text": "퓨릇……。", "type": "dialog"}
+{"page_id": "map001_ev13_p8", "speaker": "케타", "text": "\\F[Nwarau2]……。", "type": "dialog"}
+{"page_id": "map001_ev13_p8", "speaker": "\\AA[N]\\F[Nmesorashi1]미, 미안……. 너무 기분 좋아서…….", "text": "……。", "type": "dialog"}
+{"page_id": "map001_ev13_p9", "speaker": "夜イベ2", "text": "……。", "type": "dialog"}
+{"page_id": "map001_ev13_p9", "speaker": "夜イベ2", "text": "\\!…………。", "type": "dialog"}
+{"page_id": "map003_ev1_p1", "speaker": "케타", "text": "（여기까지 왔으니 진실을 확인하고 싶어…。）", "type": "dialog"}
+{"page_id": "map003_ev4_p0", "speaker": null, "text": "\\|「케타 군이 학교 졸업할 때까지 내 여자친구로 있어」라고.", "type": "name"}
+{"page_id": "map003_ev4_p0", "speaker": "\\AA[F]\\FFF[Rtujyo]\\F[tuyoki]하지만, 케타가 없는 동안만이에요….", "text": "\\AA[F]\\FFF[Rtujyo]\\F[bikkuri1]……。", "type": "dialog"}
+{"page_id": "map003_ev4_p0", "speaker": null, "text": "몰랐는데…。）", "type": "name"}
+{"page_id": "map003_ev4_p0", "speaker": "사용한 소재", "text": "…「OtoLogic」님(otologic.jp)", "type": "dialog"}
+{"page_id": "map003_ev4_p0", "speaker": null, "text": "…「마왕혼」님(maou.audio/)", "type": "name"}
+{"page_id": "map003_ev4_p0", "speaker": "…「마왕혼」님(maou.audio/)", "text": "…「포켓 사운드」님(pocket-se.info/)", "type": "dialog"}
+{"page_id": "map003_ev4_p0", "speaker": null, "text": "…「무료 효과음으로 놀자!」님(taira-komori.jpn.org/)", "type": "name"}
+{"page_id": "map003_ev4_p0", "speaker": "…「무료 효과음으로 놀자!」님(taira-komori.jpn.org/)", "text": "…「DLsite 크리에이터 학원」님", "type": "dialog"}
+{"page_id": "map003_ev4_p0", "speaker": "…「무료 효과음으로 놀자!」님(taira-komori.jpn.org/)", "text": "…「온진」님", "type": "dialog"}
+{"page_id": "map003_ev4_p0", "speaker": "…REFMAP님", "text": "・루루의 교회　님", "type": "dialog"}
+{"page_id": "map003_ev4_p0", "speaker": null, "text": "\\!NormalEnd「운명은 수렴한다」", "type": "name"}
+{"page_id": "map003_ev4_p0", "speaker": "미아", "text": "・", "type": "credit"}
+{"page_id": "map003_ev4_p0", "speaker": "미아", "text": "・", "type": "credit"}
+{"page_id": "map003_ev4_p0", "speaker": "미아", "text": "・", "type": "credit"}
+{"page_id": "map003_ev4_p0", "speaker": "미아", "text": "・", "type": "credit"}
+{"page_id": "map003_ev4_p0", "speaker": "미아", "text": "・", "type": "credit"}
+{"page_id": "map003_ev4_p0", "speaker": "미아", "text": "・", "type": "credit"}
+{"page_id": "map003_ev4_p0", "speaker": "미아", "text": "・", "type": "credit"}
+{"page_id": "map003_ev4_p0", "speaker": "미아", "text": "・", "type": "credit"}
+{"page_id": "map003_ev4_p0", "speaker": "미아", "text": "・", "type": "credit"}
+{"page_id": "map003_ev4_p0", "speaker": "미아", "text": "・", "type": "credit"}
+{"page_id": "map003_ev4_p0", "speaker": "미아", "text": "푸", "type": "credit"}
+{"page_id": "map003_ev4_p0", "speaker": "미아", "text": "포", "type": "credit"}
+{"page_id": "map003_ev4_p0", "speaker": "미아", "text": "포", "type": "credit"}
+{"page_id": "map003_ev4_p0", "speaker": "미아", "text": "포", "type": "credit"}
+{"page_id": "map003_ev4_p0", "speaker": "미아", "text": "\\!NormalEnd「운명은 수렴한다」", "type": "dialog"}
+{"page_id": "map003_ev7_p6", "speaker": "미아", "text": "…….", "type": "dialog"}
+{"page_id": "map003_ev7_p8", "speaker": "레그나스", "text": "…….", "type": "dialog"}
+{"page_id": "map003_ev8_p11", "speaker": "미아", "text": "\\AA[F]\\F[tujyo]\\FFF[Rtujyo]………….", "type": "dialog"}
+{"page_id": "map003_ev8_p14", "speaker": "미아", "text": "\\AA[F]\\F[bikkuri2]\\FFF[Rtujyo]…….", "type": "dialog"}
+{"page_id": "map003_ev8_p16", "speaker": "미아", "text": "\\F[Mtujyo]（어라…? 오늘도 안 당했네…。）", "type": "dialog"}
+{"page_id": "map003_ev8_p16", "speaker": "미아", "text": "\\F[Mtujyo]（뭐, 그건 고마운 일이니까 좋지만…。）", "type": "dialog"}
+{"page_id": "map003_ev17_p0", "speaker": "미아", "text": "\\F[MtereMetozi]으읏…。주, 주문은…읏…。", "type": "dialog"}
+{"page_id": "map003_ev17_p0", "speaker": "도구점 주인", "text": "\\AA[N]\\F[MtereMetozi]어, 응…。평소대로.", "type": "dialog"}
+{"page_id": "map003_ev18_p0", "speaker": "미아", "text": "\\F[MtereMetozi]（휴… 다행이다… 점장님이 멈춰줬어…。）", "type": "dialog"}
+{"page_id": "map003_ev18_p0", "speaker": "미아", "text": "끝이 없는 느낌이었어…。）", "type": "dialog"}
+{"page_id": "map003_ev22_p0", "speaker": "손님", "text": "\\AA[N]\\F[MtereMetozi]（두, 두근두근……。）", "type": "dialog"}
+{"page_id": "map003_ev22_p0", "speaker": "손님", "text": "\\AA[N]\\F[MtereMetozi]（두근두근……。）", "type": "dialog"}
+{"page_id": "map003_ev24_p2", "speaker": "레그나스", "text": "나는 딱히 미아 양이 「남들 앞에서 로터로 자위하는 변태」", "type": "dialog"}
+{"page_id": "map003_ev24_p5", "speaker": "미아", "text": "\\AA[F]\\F[MtereOkoru]\\FFF[Rtujyo]전 빨리 케타를 깨워 집에 돌아가고 싶은데요…。", "type": "dialog"}
+{"page_id": "map003_ev24_p5", "speaker": null, "text": "レグナス", "type": "name"}
+{"page_id": "map003_ev24_p5", "speaker": "レグナス", "text": "\\AA[FFF]\\F[MtereOkoru]\\FFF[Rtujyo]자자, 그렇게 딱딱하게 말하지 말고.", "type": "dialog"}
+{"page_id": "map003_ev24_p5", "speaker": "レグナス", "text": "…이 상황을 즐겨보자고♥？", "type": "dialog"}
+{"page_id": "map003_ev24_p7", "speaker": null, "text": "이런 최악의 섹스로… 기분 좋을 리가 없어…。）", "type": "name"}
+{"page_id": "map003_ev24_p9", "speaker": null, "text": "ミア", "type": "name"}
+{"page_id": "map003_ev24_p9", "speaker": "ミア", "text": "에!? 뭐, 뭐야!?\\!잠깐!! 어디 만지는 거야…！！", "type": "dialog"}
+{"page_id": "map003_ev24_p9", "speaker": "ミア", "text": "\\!…………。", "type": "dialog"}
+{"page_id": "map003_ev24_p11", "speaker": "夜イベ（14日～）", "text": "……。", "type": "dialog"}
+{"page_id": "map003_ev24_p12", "speaker": "미아", "text": "\\F[MbikkuTere2]에, 에엣…。 지금 화장실에 가신 것 같아요.", "type": "dialog"}
+{"page_id": "map003_ev24_p12", "speaker": "남자", "text": "\\AA[N]\\F[MtereEgao]（와…\\|분명 점장이랑 한 거잖아…。）", "type": "dialog"}
+{"page_id": "map003_ev24_p12", "speaker": "미아", "text": "（아, 위험 위험…들키지 않아서 다행이야…。", "type": "dialog"}
+{"page_id": "map003_ev24_p12", "speaker": "미아", "text": "\\|역시 개점 전에 H하는 건 안 된다고 말해야겠어…。）", "type": "dialog"}
+{"page_id": "map004_ev1_p1", "speaker": "케타", "text": "…….", "type": "dialog"}
+{"page_id": "map004_ev4_p1", "speaker": "케타", "text": "…….", "type": "dialog"}
+{"page_id": "map004_ev11_p0", "speaker": "케타", "text": "…….", "type": "dialog"}
+{"page_id": "map004_ev12_p0", "speaker": "케타", "text": "…….", "type": "dialog"}
+{"page_id": "map004_ev13_p0", "speaker": "케타", "text": "…….", "type": "dialog"}
+{"page_id": "map005_ev4_p0", "speaker": "도구점", "text": "\\!「술집에 일손이 부족하다」고 하더라.", "type": "dialog"}
+{"page_id": "map010_ev12_p0", "speaker": "미아", "text": "\\F[bikkuri1]…….", "type": "dialog"}
+{"page_id": "map010_ev15_p0", "speaker": "防具屋", "text": "「방어구 상점」", "type": "dialog"}
+{"page_id": "map010_ev16_p0", "speaker": "道具屋看板", "text": "「아이템 상점」", "type": "dialog"}
+{"page_id": "map010_ev25_p0", "speaker": "케타", "text": "「미아에게. 잘 지내고 있니? 나는 잘 지내고 있어.」", "type": "dialog"}
+{"page_id": "map010_ev25_p0", "speaker": "케타", "text": "「검술 학교는 솔직히 생각보다 힘들어.", "type": "dialog"}
+{"page_id": "map010_ev25_p0", "speaker": "케타", "text": "지금은 체력 단련이랑 근력 운동을 열심히 하는 중이야.」", "type": "dialog"}
+{"page_id": "map010_ev25_p0", "speaker": "케타", "text": "「미아, 외롭게 해서 미안해.", "type": "dialog"}
+{"page_id": "map010_ev25_p0", "speaker": "케타", "text": "과제도 이제 거의 다 끝나가니까 조만간 그쪽으로 돌아갈게.」", "type": "dialog"}
+{"page_id": "map010_ev25_p0", "speaker": "케타", "text": "「얼른 보고 싶다. 그럼 또 봐.」", "type": "dialog"}
+{"page_id": "map010_ev25_p2", "speaker": "케타", "text": "「미아에게. 잘 지내고 있어?", "type": "dialog"}
+{"page_id": "map010_ev25_p2", "speaker": "케타", "text": "나는 근육통 투성이지만 그래도 잘 지내고 있어.」", "type": "dialog"}
+{"page_id": "map010_ev25_p2", "speaker": "케타", "text": "\\|「나 정말 열심히 할게.", "type": "dialog"}
+{"page_id": "map010_ev25_p2", "speaker": "케타", "text": "다음에 네 쪽으로 돌아갈 때, 또 나랑 데이트해 줬으면 좋겠어.」", "type": "dialog"}
+{"page_id": "map010_ev25_p2", "speaker": "케타", "text": "「짧지만 이번엔 여기까지.\\|미아, 건강하게 지내.」", "type": "dialog"}
+{"page_id": "map010_ev25_p2", "speaker": "미아", "text": "\\F[kanasimi]…….", "type": "dialog"}
+{"page_id": "map010_ev25_p4", "speaker": "케타", "text": "「미아에게.\\!중요한 이야기가 있어.」", "type": "dialog"}
+{"page_id": "map010_ev25_p4", "speaker": "케타", "text": "「1주일 후면 돌아올 예정이니까, 그때 이야기하고 싶어.」", "type": "dialog"}
+{"page_id": "map010_ev25_p4", "speaker": "미아", "text": "（……하지만, 역시 직접 이야기하는 편이 좋으려나…。）", "type": "dialog"}
+{"page_id": "map010_ev25_p4", "speaker": "미아", "text": "\\AA[F]\\F[mesorashiAse]\\FFF[Rtujyo]「할 중요한 얘기가 있다」「일주일쯤 뒤에 돌아간다」,", "type": "dialog"}
+{"page_id": "map010_ev25_p4", "speaker": "미아", "text": "레그나스가 생각한 「케타와 정면으로 마주하는 방법」.", "type": "dialog"}
+{"page_id": "map010_ev26_p0", "speaker": "미아", "text": "\\F[tuyoki]…….", "type": "dialog"}
+{"page_id": "map010_ev26_p0", "speaker": "미아", "text": "\\F[tereOkoru]…….", "type": "dialog"}
+{"page_id": "map010_ev26_p0", "speaker": "미아", "text": "「버려진 에로책」을 손에 넣었다!", "type": "dialog"}
+{"page_id": "map010_ev29_p2", "speaker": "\\AA[N]\\F[tere]\\FFF[Rtujyo]레그나스 씨의 교육이라면 안심하고 맡길 수 있겠네요!", "text": "\\AA[F]\\F[tereMetozi1]\\FFF[Rtujyo]（다, 다행이다… 눈치채지 못했어…。）", "type": "dialog"}
+{"page_id": "map010_ev29_p2", "speaker": "미아", "text": "\\AA[F]\\F[tereMetozi2]\\FFF[Rtujyo]（\\|………。\\!침묵하는 것밖에 할 수 없어…）", "type": "dialog"}
+{"page_id": "map010_ev29_p5", "speaker": "미아", "text": "\\AA[F]\\F[metoziKomaru]\\FF[Ktujyo]…….", "type": "dialog"}
+{"page_id": "map013_ev8_p2", "speaker": "9日目エロ後", "text": "…….", "type": "dialog"}
+{"page_id": "map013_ev8_p2", "speaker": "9日目エロ後", "text": "\\|……….", "type": "dialog"}
+{"page_id": "map013_ev8_p2", "speaker": "미아", "text": "\\F[metoziKomaru]…….", "type": "dialog"}
+{"page_id": "map013_ev8_p3", "speaker": "미아", "text": "\\AA[N]\\F[kanasimi]…….", "type": "dialog"}
+{"page_id": "map013_ev8_p3", "speaker": "미아", "text": "\\F[egao]…….", "type": "dialog"}
+{"page_id": "map013_ev8_p3", "speaker": "\\F[kanasimi]케타…….", "text": "\\F[warau]…….", "type": "dialog"}
+{"page_id": "map013_ev8_p3", "speaker": "\\AA[N]\\F[kanasimi]탕, 하고 문이 닫히자 거실은", "text": "\\F[kanasimi]…….", "type": "dialog"}
+{"page_id": "map013_ev8_p3", "speaker": "미아", "text": "\\F[metoziKomaru]（그걸 동기 삼아 생활에 열심히 해야지…。）", "type": "dialog"}
+{"page_id": "map013_ev10_p3", "speaker": "미아", "text": "…….", "type": "dialog"}
+{"page_id": "map013_ev10_p3", "speaker": "미아", "text": "(당일에 겨우 예약하면 이렇게 비싸지는 거구나….)", "type": "dialog"}
+{"page_id": "map013_ev10_p3", "speaker": "미아", "text": "그 후….", "type": "dialog"}
+{"page_id": "map013_ev10_p3", "speaker": "미아", "text": "말이 느린 건지 도착도 평소보다 늦어져 버렸지만….", "type": "dialog"}
+{"page_id": "map013_ev10_p5", "speaker": "미아", "text": "\\F[HmetoziOkoru]…….", "type": "dialog"}
+{"page_id": "map013_ev12_p4", "speaker": "미아", "text": "\\F[metoziKomaru]…….", "type": "dialog"}
+{"page_id": "map013_ev12_p4", "speaker": "미아", "text": "내가 먼저 야한 걸로 유혹하다니 부끄러워….)", "type": "dialog"}
+{"page_id": "map013_ev13_p0", "speaker": "미아", "text": "분명 음란한 애라고 생각받을 거잖아….)", "type": "dialog"}
+{"page_id": "map013_ev14_p0", "speaker": "미아", "text": "따를 수밖에 없지만 말이죠….)", "type": "dialog"}
+{"page_id": "map015_ev4_p0", "speaker": "酒場の看板", "text": "「BAR」", "type": "dialog"}
+{"page_id": "map015_ev9_p0", "speaker": "道具屋看板", "text": "「여관」", "type": "dialog"}
+{"page_id": "map015_ev11_p0", "speaker": "17日朝帰るイベ", "text": "…….", "type": "dialog"}
+{"page_id": "map015_ev11_p0", "speaker": "미아", "text": "\\AA[F]\\F[mesorashi]\\FFF[Rtujyo]…….", "type": "dialog"}
+{"page_id": "map015_ev15_p0", "speaker": "미아", "text": "\\AA[F]\\F[mesorashiAse]\\FFF[Rtujyo]…….", "type": "dialog"}
+{"page_id": "map015_ev15_p0", "speaker": "미아", "text": "정말 커플 같아서 부끄러워….)", "type": "dialog"}
+{"page_id": "map015_ev16_p0", "speaker": "レストラン", "text": "「레스토랑」", "type": "dialog"}
+{"page_id": "map015_ev24_p0", "speaker": "雑貨屋", "text": "「잡화점」", "type": "dialog"}
+{"page_id": "map015_ev31_p1", "speaker": "미아", "text": "(으음…….)", "type": "dialog"}
+{"page_id": "map015_ev31_p1", "speaker": "미아", "text": "(케타가 이렇게 여유가 없어 보였던가….", "type": "dialog"}
+{"page_id": "map015_ev31_p1", "speaker": "미아", "text": "\\|역시 검술 학교가 바쁜 걸까….)", "type": "dialog"}
+{"page_id": "map015_ev31_p1", "speaker": "미아", "text": "그런 생각을 하며 케타와 마을을 산책했다….", "type": "dialog"}
+{"page_id": "map015_ev38_p0", "speaker": "酒場の看板", "text": "「카페」", "type": "dialog"}
+{"page_id": "map015_ev41_p0", "speaker": "酒場の看板", "text": "「의류점」", "type": "dialog"}
+{"page_id": "map015_ev42_p0", "speaker": "계속해서 애태워지며, 뜨거워지는 몸에 생명을 실감한다.", "text": "미아", "type": "dialog"}
+{"page_id": "map015_ev42_p0", "speaker": "이젠…너, 너무 만지…세요…읏♥", "text": "손이 미끄러지듯 쓰다듬기 시작한다.", "type": "dialog"}
+{"page_id": "map015_ev42_p0", "speaker": "이젠…너, 너무 만지…세요…읏♥", "text": "평소라면 그 손을 튕겨내겠지만…", "type": "dialog"}
+{"page_id": "map015_ev42_p0", "speaker": "이젠…너, 너무 만지…세요…읏♥", "text": "미아는 저항하지 않았다.", "type": "dialog"}
+{"page_id": "map015_ev42_p0", "speaker": "이젠…너, 너무 만지…세요…읏♥", "text": "허벅지 안쪽에서부터 치마 속을 스칠 듯 말 듯한 거리.", "type": "dialog"}
+{"page_id": "map015_ev42_p0", "speaker": "이젠…너, 너무 만지…세요…읏♥", "text": "계속 애태워지며, 뜨거워지는 몸에 생명을 실감한다.", "type": "dialog"}
+{"page_id": "map015_ev42_p0", "speaker": null, "text": "미아", "type": "name"}
+{"page_id": "map015_ev42_p0", "speaker": "ミア", "text": "레, 레그나스 씨…♥", "type": "dialog"}
+{"page_id": "map015_ev42_p0", "speaker": "ミア", "text": "이젠…너, 너무 만지…세요…읏♥", "type": "dialog"}
+{"page_id": "map015_ev42_p0", "speaker": "ミア", "text": "속옷이 흠뻑 젖어,", "type": "dialog"}
+{"page_id": "map015_ev42_p0", "speaker": "ミア", "text": "미아의 한계가 다가올 것 같은 때에 마침내 마차가 도착했다.", "type": "dialog"}
+{"page_id": "map017_ev7_p0", "speaker": "미아", "text": "………。\\!", "type": "dialog"}
+{"page_id": "map017_ev7_p0", "speaker": "미아", "text": "얼른 당신을 끝내고 먼저 자 버릴 테니까…。）", "type": "dialog"}
+{"page_id": "map018_ev5_p0", "speaker": "미아", "text": "\\AA[F]\\F[mesorashi]……。", "type": "dialog"}
+{"page_id": "map021_ev5_p0", "speaker": "감사합니다~!", "text": "\\|아니, 싱글 침대에서 둘이 자는 건… 역시 힘들겠지…。）", "type": "dialog"}
+{"page_id": "map022_ev5_p0", "speaker": "점원", "text": "「이렇게 귀여운 애랑 데이트하는데", "type": "dialog"}
+{"page_id": "map022_ev5_p0", "speaker": "점원", "text": "데이트 비용 내는 건 당연하지」", "type": "dialog"}
+{"page_id": "map022_ev5_p2", "speaker": "케타", "text": "\\AA[N]\\F[metoziKomaru]…네, 오늘 예약하셨던…。\\|………네, 맞습니다.", "type": "dialog"}
+{"page_id": "map022_ev5_p2", "speaker": "미아", "text": "\\F[aseKomaru]（……。）", "type": "dialog"}
+{"page_id": "map024_ev1_p0", "speaker": "미아", "text": "………。", "type": "dialog"}
+{"page_id": "map024_ev1_p0", "speaker": "미아", "text": "\\!…………。", "type": "dialog"}
+{"page_id": "map024_ev7_p0", "speaker": "미아", "text": "………。\\!", "type": "dialog"}
+{"page_id": "map026_ev2_p0", "speaker": "미아", "text": "\\|「케타 씨께」", "type": "dialog"}
+{"page_id": "map026_ev2_p0", "speaker": "미아", "text": "\\|「우리, 헤어지자요.」", "type": "dialog"}
+{"page_id": "map026_ev2_p0", "speaker": "미아", "text": "\\|「다른 소중한 사람이 생겼어요.」", "type": "dialog"}
+{"page_id": "map026_ev2_p0", "speaker": "미아", "text": "\\|「이제부터는 그 사람과 함께 살 거예요.」", "type": "dialog"}
+{"page_id": "map026_ev2_p0", "speaker": "미아", "text": "\\|「갑작스런 연락 죄송해요.」", "type": "dialog"}
+{"page_id": "map026_ev2_p0", "speaker": "미아", "text": "\\|「케타 씨, 건강하세요.」", "type": "dialog"}
+{"page_id": "map026_ev2_p0", "speaker": "케타", "text": "…………。", "type": "dialog"}
+{"page_id": "map026_ev2_p0", "speaker": "케타", "text": "……。\\|조금만 있으면 에치치 마을로 돌아갈 수 있어.", "type": "dialog"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "・", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "・", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "・", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "・", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "・", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "・", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "・", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "・", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "・", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "・", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "・", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "・", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "・", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "・", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "・", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "후", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "포", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "포", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "포", "type": "credit"}
+{"page_id": "map026_ev3_p1", "speaker": "45日BAD", "text": "\\!NormalEnd「약속」", "type": "dialog"}
+{"page_id": "map027_ev1_p0", "speaker": null, "text": "…「오토비토」님", "type": "name"}
+{"page_id": "map027_ev1_p0", "speaker": "포", "text": "\\!TrueEnd「새로운 길」\\!", "type": "dialog"}
+{"page_id": "map027_ev1_p0", "speaker": "플레이해 주셔서 정말 감사합니다!!\\!", "text": "\\FF[Ktujyo]（그럼 나는 앞을 향해 나아가는 나만의 길을 걸어가겠어.）", "type": "dialog"}
+{"page_id": "map027_ev1_p0", "speaker": null, "text": "ケータ", "type": "name"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "（\\|잘 있어, 미아. 건강하게 지내.）", "type": "dialog"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "오", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "・", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "·", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "·", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "·", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "·", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "·", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "·", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "·", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "·", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "·", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "·", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "·", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "·", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "·", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "·", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "·", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "푸", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "포", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "포", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "포", "type": "credit"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "\\!TrueEnd「새로운 길」\\!", "type": "dialog"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "게임 클리어 축하드립니다!!", "type": "dialog"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "본 게임에는 선택지 외의 분기나 주회 요소는 없습니다.", "type": "dialog"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "타이틀 화면에서 볼 수 있는 회상 방에서,", "type": "dialog"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "이 게임에 대해 이야기하고 있으니 괜찮으시다면 놀러 와 주세요!", "type": "dialog"}
+{"page_id": "map027_ev1_p0", "speaker": "ケータ", "text": "플레이해 주셔서 감사합니다!!\\!", "type": "dialog"}
+{"page_id": "map066_ev13_p0", "speaker": "11.ケータの前手マン", "text": "이벤트 「케타 앞에서 테만」을 재생하시겠습니까?", "type": "dialog"}
+{"page_id": "map066_ev19_p0", "speaker": "最初の部屋の", "text": "(일부 엔딩・특수 컷인・특수 이벤트는 이 방에서는", "type": "dialog"}
+{"page_id": "map066_ev27_p0", "speaker": "23.ロータープレイ", "text": "이벤트 「로터를 삽입당해서…」를 재생하시겠습니까?", "type": "dialog"}
+{"page_id": "map066_ev27_p0", "speaker": "레그나스", "text": "난 딱히 미아 양이 「사람들 앞에서 로터로 자위하는 변태」", "type": "dialog"}
+{"page_id": "map066_ev57_p0", "speaker": "작가 대리", "text": "「차분을 사용한 단계별 에로나 왕도적인 에로 시츄를 넣으면서,", "type": "dialog"}
+{"page_id": "map066_ev57_p0", "speaker": "작가 대리", "text": "가능한 한 제대로 된 관계 묘사도 넣고 싶어…」", "type": "dialog"}
+{"page_id": "map066_ev57_p0", "speaker": "작가 대리", "text": "「그리고 코스플레이 H도 다양성을 늘리고 싶어…」", "type": "dialog"}
+{"page_id": "MapInfos", "speaker": null, "text": "미아의 집:2층", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "레그나스의 주점(50일용)", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "레그나스의 주점", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "레그나스의 자택", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "도구점", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "방어구점", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "촌장의 집", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "최면 아저씨의 집", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "빈집", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "에치치 마을", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "숲", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "미아의 집:1층", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "숲(깊은 곳)", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "리트나 마을", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "레스토랑", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "러브호텔 (103호)", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "카페", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "옷가게", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "잡화점", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "여관", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "러브호텔", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "러브호텔 (2층)", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "러브호텔 (202호)", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "러브호 (욕실)", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "케타의 기숙사", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "미아의 집(최종용)", "type": "system_recursive"}
+{"page_id": "MapInfos", "speaker": null, "text": "회상 방", "type": "system_recursive"}
+{"page_id": "common014", "speaker": null, "text": "자지 끝부분, 「귀두」 근처에 있는 턱이 「카리」라는 거야.", "type": "name"}
+{"page_id": "common015", "speaker": "미아", "text": "……。뭐, 아주 조금…\\|정말로 아주 조금만….", "type": "dialog"}
+{"page_id": "common017", "speaker": "미아", "text": "……。", "type": "dialog"}
+{"page_id": "common017", "speaker": "미아", "text": "\\|…………。", "type": "dialog"}
+{"page_id": "common017", "speaker": "미아", "text": "가위다리 쾌락 조교는 계속되었던 것이었다…。\\!", "type": "dialog"}
+{"page_id": "common019", "speaker": "미아 안에 사정하면 실수로 임신해서", "text": "「아이가 생길」지도 모르지만 책임은 질 테니까♥", "type": "dialog"}
+{"page_id": "common022", "speaker": "미아", "text": "빨리 점장님을 사정시켜야 하는데…。）", "type": "dialog"}
+{"page_id": "common024", "speaker": null, "text": "（뭐, 기분 탓이려나…。）", "type": "name"}
+{"page_id": "common024", "speaker": "미아", "text": "……。", "type": "dialog"}
+{"page_id": "common024", "speaker": null, "text": "어쩔 수 없으니 해 보자…。）", "type": "name"}
+{"page_id": "common024", "speaker": "하, 하아…♥ 하아……♥", "text": "（후, 후우…. 바로 끝나서 다행이다…。）", "type": "dialog"}
+{"page_id": "common025", "speaker": "케타", "text": "쉬이……。쉬이……。", "type": "dialog"}
+{"page_id": "common025", "speaker": null, "text": "미아", "type": "name"}
+{"page_id": "common025", "speaker": "ミア", "text": "하에…에…♥헤에……♥", "type": "dialog"}
+{"page_id": "common025", "speaker": null, "text": "케타", "type": "name"}
+{"page_id": "common025", "speaker": "ケータ", "text": "쉬이……。쉬이……。", "type": "dialog"}
+{"page_id": "common025", "speaker": null, "text": "레그나스", "type": "name"}
+{"page_id": "common025", "speaker": "レグナス", "text": "아이고, 케타 군 잠들었네~.", "type": "dialog"}
+{"page_id": "common025", "speaker": "レグナス", "text": "미아의 특대급 절정을 보여주지 못해 아쉽네.", "type": "dialog"}
+{"page_id": "common025", "speaker": null, "text": "레그나스", "type": "name"}
+{"page_id": "common025", "speaker": "レグナス", "text": "이것도 이것대로 즐거웠으니 됐지 뭐♥", "type": "dialog"}
+{"page_id": "common025", "speaker": "レグナス", "text": "보지도 좋아하는 것 같네♥", "type": "dialog"}
+{"page_id": "common027", "speaker": "(아, 연속으로는 못하는구나…)", "text": "……。", "type": "dialog"}
+{"page_id": "common027", "speaker": "미아는 다음 콘돔을 끼워주려고", "text": "……。", "type": "dialog"}
+{"page_id": "common033", "speaker": "미아", "text": "\\F[HmetoziOkoru]……。", "type": "dialog"}
+{"page_id": "common033", "speaker": null, "text": "レグナス", "type": "name"}
+{"page_id": "common033", "speaker": "レグナス", "text": "\\AA[N]\\F[Hahe3]후…。", "type": "dialog"}
+{"page_id": "common033", "speaker": null, "text": "ミア", "type": "name"}
+{"page_id": "common033", "speaker": "ミア", "text": "\\F[Hahe3]으흐…♥헤에…♥헤에…♥!!", "type": "dialog"}
+{"page_id": "common033", "speaker": null, "text": "ミア", "type": "name"}
+{"page_id": "common033", "speaker": "ミア", "text": "\\F[Hahe3]（으힛…♥자지가 쭉쭉 빠져나갔어…♥）", "type": "dialog"}
+{"page_id": "common033", "speaker": null, "text": "ミア", "type": "name"}
+{"page_id": "common033", "speaker": "ミア", "text": "\\F[Hahe3]（정액이 보지 입구에서 흘러내리는 게 느껴져…♥", "type": "dialog"}
+{"page_id": "common033", "speaker": "ミア", "text": "오늘도 듬뿍 사정당했네…♥）", "type": "dialog"}
+{"page_id": "common034", "speaker": null, "text": "\\!………\\}지 마세요…。", "type": "name"}
+{"page_id": "common042", "speaker": null, "text": "자지 끝부분, 「귀두」 주변에 있는 단차가 「귀두관」이야.", "type": "name"}
+{"page_id": "common045", "speaker": "레그나스", "text": "\\|통통하게 부어오른 작은 클리는 쉽게 눌려 터져…。", "type": "dialog"}
+{"page_id": "common045", "speaker": "미아", "text": "……。", "type": "dialog"}
+{"page_id": "common045", "speaker": "미아", "text": "\\|…………。", "type": "dialog"}
+{"page_id": "common045", "speaker": "미아", "text": "가위다리 쾌락 조교는 계속되었던 것이다…。\\!", "type": "dialog"}
+{"page_id": "common046", "speaker": "미아", "text": "기뻐해 줄지도 모르고… 힘내서 삼켜야지…。)", "type": "dialog"}
+{"page_id": "common047", "speaker": "미아 안에 사정하면 실수로 임신해서", "text": "「아이가 생길」지도 모르지만 책임은 질 거고♥", "type": "dialog"}
+{"page_id": "common048", "speaker": "미아", "text": "빨리 점장님을 사정시켜야 하는데…。）", "type": "dialog"}
+{"page_id": "common049", "speaker": "쾌락에 잠식당할 것 같은 미아는", "text": "자지를 쫓아내려고 보지에 힘을 주어 저항하지만…。", "type": "dialog"}
+{"page_id": "common050", "speaker": "미아", "text": "……。", "type": "dialog"}
+{"page_id": "common050", "speaker": null, "text": "어쩔 수 없으니 해보자…。）", "type": "name"}
+{"page_id": "common050", "speaker": "미아", "text": "더는 못 움직이겠어……。）", "type": "dialog"}
+{"page_id": "common050", "speaker": "미아", "text": "미아의 보지는 오나홀 취급을 당하며 계속…。", "type": "dialog"}
+{"page_id": "common050", "speaker": "미아", "text": "생각도 보지도 녹아내리도록 당해버린 것이었다……。", "type": "dialog"}
+{"page_id": "common051", "speaker": "케타", "text": "으음ー…. 미안, 또 잠들었네…….", "type": "dialog"}
+{"page_id": "common051", "speaker": "케타", "text": "쉬이……。쉬이……。", "type": "dialog"}
+{"page_id": "common051", "speaker": null, "text": "レグナス", "type": "name"}
+{"page_id": "common051", "speaker": "レグナス", "text": "아이고, 케타 군 잠들었네ー.", "type": "dialog"}
+{"page_id": "common051", "speaker": "レグナス", "text": "미아의 특대급 절정을 보여주지 못해 아쉽네.", "type": "dialog"}
+{"page_id": "common051", "speaker": null, "text": "レグナス", "type": "name"}
+{"page_id": "common051", "speaker": "レグナス", "text": "이것도 이것대로 즐거웠으니 됐지♥", "type": "dialog"}
+{"page_id": "common051", "speaker": "レグナス", "text": "보지도 좋아하는 것 같고♥", "type": "dialog"}
+{"page_id": "common052", "speaker": "미아", "text": "이런 최악의 섹스로… 기분이 좋아질 리가 없어…。）", "type": "dialog"}
+{"page_id": "common053", "speaker": "(아, 연속으로는 못하는구나…)", "text": "……。", "type": "dialog"}
+{"page_id": "common053", "speaker": "미아는 다음 콘돔을 끼워주려고", "text": "……。", "type": "dialog"}
+{"page_id": "common054", "speaker": "미아", "text": "하아… 하아…。", "type": "dialog"}
+{"page_id": "common054", "speaker": "미아", "text": "너, 너무… 길어요……。", "type": "dialog"}
+{"page_id": "common058", "speaker": "미아", "text": "\\F[HmetoziOkoru]……。", "type": "dialog"}
+{"page_id": "common058", "speaker": null, "text": "レグナ스", "type": "name"}
+{"page_id": "common058", "speaker": "レグナス", "text": "\\AA[N]\\F[Hahe3]후…。", "type": "dialog"}
+{"page_id": "common058", "speaker": null, "text": "ミア", "type": "name"}
+{"page_id": "common058", "speaker": "ミア", "text": "\\F[Hahe3]으흐…♥헤에…♥헤에…읏♥！！", "type": "dialog"}
+{"page_id": "common058", "speaker": null, "text": "ミア", "type": "name"}
+{"page_id": "common058", "speaker": "ミア", "text": "\\F[Hahe3]（으히잉…♥자지가 쭉쭉 빠져나갔어…♥）", "type": "dialog"}
+{"page_id": "common058", "speaker": null, "text": "ミア", "type": "name"}
+{"page_id": "common058", "speaker": "ミア", "text": "\\F[Hahe3]（정액이 질 입구에서 흘러내리는 게 느껴져…♥", "type": "dialog"}
+{"page_id": "common058", "speaker": "ミア", "text": "오늘도 듬뿍 사정당했네요…♥）", "type": "dialog"}
+{"page_id": "common059", "speaker": "미아", "text": "으응……。\\!아, ……안……돼요……읏♥", "type": "dialog"}
+{"page_id": "common059", "speaker": "미아", "text": "\\!………\\}빼지 마세요…。", "type": "dialog"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "일반 방어구", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "마법 방어구", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "경장 방어구", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "중장 방어구", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "소형 방패", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "대형 방패", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "원", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "물리", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "화염", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "얼음", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "번개", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "물", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "대지", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "바람", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "빛", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "어둠", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "무기", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "방패", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "머리", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "몸통", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "장신구", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "미아 NTR - 그녀는 잘생긴 자지에 빠져든다 - (정식판)", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "마법", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "필살기", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "OP 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "OP2 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "OP2 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "주점 플래그 발생", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "주점 첫 번째 매력 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "주점 첫 번째 매력 에로", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "주점 첫 번째 매력 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "주점 첫날 후, 마을 인사", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "첫 주점 아르바이트 준비", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "첫 주점 아르바이트 옷 입기", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "OP 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "에로 스테이터스", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "HP 게이지 표시", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "케이타 시점", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "밤이 되었습니다", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "밤: 주점으로 향합니다", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "첫 주점 아르바이트 옷 갈아입음", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "주점 접객 중", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "활동 중", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "휴일 중", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "주점 아르바이트 1 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "주점 아르바이트 1 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "주점 아르바이트 1 귀가", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "술집 아르바이트 2일차 아침 출근", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "술집 아르바이트 2일차 아침 근무 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "술집 아르바이트 2일차 아침 근무 자지 이벤트 전", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "아르바이트 1일차 접객 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "술집 아르바이트 2일차 아침 근무 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "술집 아르바이트 2일차 접객 전", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "술집 아르바이트 2일차 접객 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "아르바이트 접객 2일차 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "아르바이트 접객 2일차 퇴근", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "3일차 편지 확인하라", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "3일차 휴일 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "4일차 아르바이트 출근", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "4일차 아침 근무 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "4일차 접객 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "4일차 접객 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "4일차 아르바이트 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "7일차 아르바이트 아침 출근", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "에로책 이벤트", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "에로책 입수", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "7일차 아침 이후 휴식 시간", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "아침 휴식", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "워프 금지", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "7일째 밤 선술집으로 향함", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "7일째 밤 선술집 접객 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "7일째 밤 선술집 접객 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "7일째 밤 귀가", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "8일째 아침 출근", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "8일째 숲으로 이동함", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "케이타 동행", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "레그나스 동행", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "숲에 들어갈 수 있어", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "8일째 채집 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "8일째 채집 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "8일째 귀가", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일째 휴일 현관으로 향함", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일째 케이타 등장!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일째 미아&케이타 집 대화", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일째 미아&케이타 외출", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일째 미아&케이타 외출 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일째 미아&케이타 도구점 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일 미아&케타 방어구점 끝", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일 미아&케타 촌장 끝", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일 미아&케타 산책 끝", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일 레그나스 등장", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일 미아&레그나스 헤어짐", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일 미아&레그나스 SEX 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일 미아&레그나스 SEX 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일 미아 귀가", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "이벤트 중 (외출 금지)", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일 목욕 전", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일 목욕 중", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "9일 목욕 후 식사 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "10일 기상 배웅 전", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "10일 기상 배웅 이동", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "10일 케타 출발", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "10일 레그나스 방문", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "10일 레그나스 2층 안내 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "10일 레그나스 2층 안내 중", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "10일 침대 콘돔 SEX", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "10일 침대 콘돔 SEX 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "15일 아침 기상", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "15일 출근 이동 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "우편 미확인", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "15일 우편 확인", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "15일 편지 완료, 술집 이동", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "15일 술집 접객 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "15일 술집 접객 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일 술집으로 향함", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일 마을 도착", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일 마내_대화 끝", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일 음식점 찾기", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일 음식점 들어가서", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일째 점심 후", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일째 공원 이동", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일째 옷가게 이동", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일째 잡화점 이동", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일째 카페 이동", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일째 저녁이 왔음", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일째 호텔 탐색", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일째 러브호텔 탐색", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일차 러브호텔 입장 이동", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "저녁이 되었다", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일차 러브호텔 목욕탕 앞", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일차 호텔 목욕탕 H 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일차 목욕 끝", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일차 목욕탕 레그나스 퇴장", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일차 목욕 후 옷 갈아입기 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "16일차 치어리더 H 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "17일차 호텔 아침 나가기", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "17일차 잠들기 전 미아", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "17일차 인형 장식", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "21일차 밤 출근 이동", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "21일차 밤 주점 접객 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "21일차 밤 주점 접객 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "장난감 사용 중", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "21일차 밤 아르바이트 종료 귀가", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "23일차 아침 아르바이트 출근", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "23일차 밤 아르바이트 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "23일차 아르바이트 케이타 등장", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "23일차 아르바이트 케이타 착석", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "23일 탈의실 준비", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "23일 밤 갈아입기 에로", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "23일째 밤 갈아입기 에로 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "23일 밤 케이타 탈의실 앞 이동", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "23일째 밤 귀가 전", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "24일째 아침 미아 집 이벤트", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "24일째 아침 준비", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "방 밤 왔음", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "방 저녁 왔음", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "24일 리트나 마을 도착", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "24일 리트나 마을 의류점 입점", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "24일 리트나 마을 점심", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "24일 리트나 마을 잡화점", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "24일 리트나 마을 저녁입니다", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "24일 러브호텔 향함", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "24일 러브호텔 입실 전", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "24일 103호 입실", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "24일 103호 수면", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "24일 103호 퇴실 준비", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "25일 밖으로 나와서 이별", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "25일 레그나스 등장", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "25일 미아 호텔로 유인", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "25일 에치치 마을 도착", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "25일 레그나스 자실 SEX", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "30일 화장실 청소 중...", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "30일 화장실 청소 후 아르바이트 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "35일 케이타 귀가 현관 앞", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "35일 레그나스와 대화", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "35일 미아의 저녁 준비", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "33일 케이타 식탁 대화", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "28일 레그나스 화장실 입장", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "33일 저녁 게임 준비", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "33일 저녁 게임 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "33일 저녁 게임 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "33일 미아 방 레그나스 대화", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "33일 케이타 H씬?", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "33일 레그나스 H 준비", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "33일 레그나스 H 시작 전", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "34일 레그나스 H 후 아침 대화", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "45일 미아 우체통 앞", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "45일 미아 우편 확인", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "33일 미아 옷 갈아입기 완료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "45일 미아 편지 읽는 중", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "45일 BAD 레그나스 등장", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "45일 BAD 케이타 방 편지", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "45일 BAD 맞이함", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "45일 True 케이타 편지 읽음", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "45일 Tr 케이타 에치치 등장", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "50일 Tr 케이타 자택 탐색 전", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "50일 Tr 케이타 자택 2층 탐색", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "50일 Tr 마을 탐색 플래그", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "50일 Tr 마을 탐색 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "50일 아저씨 대화 완료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "50일 도구점 대화 완료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "50일 방어구점 대화 완료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "50일 촌장 대화 후", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "50일 마지막 선택", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "50일 true 주점 현관 탐색", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "50일 true 주점 1층 안쪽 탐색", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "50일 true 주점 1층 마지막", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "50일째 케타 독백", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "50일째 true 선술집 1층 탐색 시작", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "50일째 true 선술집 2층 문 조사함", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "선술집 화장실 펠라치오 후", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "레벨", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "경험치", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "싸운다", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "도망친다", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "공격", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "방어", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "아이템", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "스킬", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "장비", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "스테이터스", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "정렬", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "저장", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "게임 종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "옵션", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "무기", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "방어구", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "중요한 아이템", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "장비", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "최강 장비", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "전체 해제", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "새 게임", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "이어하기", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "타이틀로", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "종료", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "구매하기", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "판매하기", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "최대 HP", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "최대 MP", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "공격력", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "방어력", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "마력", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "마법 방어", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "민첩성", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "운", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "명중률", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "회피율", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "항상 대시", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "커맨드 기억", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "터치 UI", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "BGM 볼륨", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "BGS 볼륨", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "ME 볼륨", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "SE 볼륨", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "소지 수", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "현재 %1", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "다음 %1까지", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "어느 파일에 저장하시겠습니까?", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "어느 파일을 불러오시겠습니까?", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "파일", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "자동 저장", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1들", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1이(가) 나타났다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1이(가) 선제공격했다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1은(는) 기습당했다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1은(는) 도망쳤다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "하지만 도망칠 수 없었다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1의 승리!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1은(는) 전투에서 패배했다.", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1의 %2을(를) 획득!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1\\G 골드를 얻었다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1을(를) 얻었다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1의 %2이(가) %3 올랐다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1을(를) 익혔다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1은(는) %2을(를) 사용했다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "회심의 일격!!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "통한의 일격!!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1은(는) %2의 데미지를 받았다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1의 %2이(가) %3 회복되었다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1의 %2이(가) %3 증가했다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1의 %2이(가) %3 감소했다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1은(는) %2을(를) %3 빼앗겼다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1은(는) 데미지를 받지 않았다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "미스! %1은(는) 데미지를 받지 않았다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1에게 %2의 데미지를 주었다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1의 %2이(가) %3 회복되었다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1의 %2이(가) %3 증가했다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1의 %2가 %3 감소했다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1의 %2를 %3 빼앗았다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1에게 데미지를 줄 수 없다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "미스! %1에게 데미지를 줄 수 없다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1이(가) 공격을 피했다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1이(가) 마법을 무효화했다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1이(가) 마법을 반사했다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1의 반격!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1이(가) %2를 막아섰다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1의 %2가 올랐다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1의 %2가 떨어졌다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1의 %2가 원래대로 돌아왔다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "%1에게는 효과가 없었다!", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "아이템 ID", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "경험치", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "맵 ID", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "X좌표", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "Y좌표", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "성희롱 횟수", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "자위 횟수", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "클리터그스 횟수", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "유두 오르가즘 횟수", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "사정시킨 횟수", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "유두 감도", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "질 감도", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "클리터그스 감도", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "질 오르가즘 횟수", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "섹스 횟수", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "에로틱한 추억 (케이타)", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "에로틱한 추억 (레그나스)", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "주점 접객 횟수 A", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "주점 아르바이트 아침 1 탐색", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "주점 아르바이트 5일차 아침 결석", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "8일차 숲 채집 포인트", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "7일차 케이타 데이트 포인트", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "1층 상점 재고 스위치", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "1층 창고 스위치 실수 횟수", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "1층 상점 재고: 식량", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "주점 아르바이트 30일차 탐색", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "자택 요리 33일차 탐색", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "트루 마을 탐색", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "트루 선술집 탐색", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "정신 안정제 재고", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "데미지 이월", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "카드 키 C 재고", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "정신 감소약 재고", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "욕정 감소약 재고", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "욕정 상승약 재고", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "첫날 마을 탐색 횟수", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "경과 일수", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "현재 경험치", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "현재 경과 일수", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "단검", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "검", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "플레일", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "도끼", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "채찍", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "지팡이", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "활", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "석궁", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "총", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "손톱", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "글러브", "type": "system_recursive"}
+{"page_id": "system_full_recursive", "speaker": null, "text": "창", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "회복 아이템보다 상위에 표시하고 싶은 아이템용 칸입니다.", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "-----예비", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "술집에서 일할 때 착용한다.", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "술집 제복", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "미아의 집 근처에 버려져 있던 야한 책.", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "버려진 야한 책", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "케타가 미아에게 선물한 것.", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "헤어핀", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "미아의 방에 놓여 있던 것.", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "수수께끼 열쇠", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "미아의 방에 놓여 있던 것.", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "케타의 집 열쇠", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "정신력을 +5 해준다. 대량 구매 금지!!", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "정신 안정제", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "음란도를 -5 해준다. 대량 구매 금지!!", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "성욕 억제제", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "정신치를 -5 감소시킨다. 대량 구매 금지!!", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "수상한 약", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "음란치를 +5 증가시킨다. 대량 구매 금지!!", "type": "system_recursive"}
+{"page_id": "static_items", "speaker": null, "text": "꼴리는 약", "type": "system_recursive"}
+{"page_id": "static_actors", "speaker": null, "text": "미아", "type": "system_recursive"}
+{"page_id": "static_actors", "speaker": null, "text": "매력치:\\V[2]", "type": "system_recursive"}
+{"page_id": "static_actors", "speaker": null, "text": "미아(웨이트리스)", "type": "system_recursive"}
+{"page_id": "static_actors", "speaker": null, "text": "정신치:\\V[7]\n음란치:\\V[2]", "type": "system_recursive"}
+{"page_id": "static_actors", "speaker": null, "text": "미아（나체）", "type": "system_recursive"}
+{"page_id": "static_actors", "speaker": null, "text": "정신치:\\V[7]\n음란치:\\V[2]", "type": "system_recursive"}
+{"page_id": "static_actors", "speaker": null, "text": "레그나스", "type": "system_recursive"}
+{"page_id": "static_actors", "speaker": null, "text": "정신치:\\V[7]\n음란치:\\V[2]", "type": "system_recursive"}
+{"page_id": "static_actors", "speaker": null, "text": "케이타", "type": "system_recursive"}
+{"page_id": "static_actors", "speaker": null, "text": "관에서 만난 소년.", "type": "system_recursive"}
+{"page_id": "static_actors", "speaker": null, "text": "미아（치어리더）", "type": "system_recursive"}
+{"page_id": "static_actors", "speaker": null, "text": "정신치:\\V[7]\n음란치:\\V[2]", "type": "system_recursive"}
+{"page_id": "static_actors", "speaker": null, "text": "미아（고양이）", "type": "system_recursive"}
+{"page_id": "static_actors", "speaker": null, "text": "정신치:\\V[7]\n음란치:\\V[2]", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【검】가볍고 다루기 쉬운 짧은 칼날의 검.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "숏 소드", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【검】날카로운 예리함을 자랑하는 전투용 장검.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "롱소드", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【검】휘어진 날을 가진 넓은 검.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "팔시온", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【검】미스릴로 제작된 장검.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "미스릴 소드", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【검】드래곤의 이빨로 만든 검.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "드래곤 블레이드", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【지팡이】저렴하고 일반적으로 널리 보급된 지팡이.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "우드 스태프", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【지팡이】술자의 마력을 약간 증폭시키는 지팡이.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "매직 원드", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【지팡이】술자의 마력을 증폭시키는 은제 지팡이.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "포스 원드", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【지팡이】술자의 마력을 증폭시키는 미스릴 지팡이.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "미스릴 로드", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【지팡이】술자의 마력을 증폭시키는 드래곤 지팡이.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "드래곤 스태프", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【플레일】자루 끝에 사슬로 돌구슬을 연결한 연결곤봉.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "스톤 플레일", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【플레일】자루 끝에 쇠사슬로 구리 구슬을 연결한 연결 곤봉.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "브론즈 플레일", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【플레일】강철로 강화한 연결 곤봉.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "모닝스타", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【플레일】미스릴로 강화한 연결 곤봉.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "미스릴 플레일", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【플레일】드래곤의 송곳니로 강화한 연결 곤봉.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "드래곤 플레일", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【도끼】벌목에 사용하는 소형 도끼.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "핸드 액스", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【도끼】전투용으로 만들어진 양날 도끼.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "배틀 액스", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【도끼】초승달 모양의 날을 가진 전투 도끼.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "바르디슈", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【도끼】미스릴로 만든 전투 도끼.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "미스릴 액스", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【도끼】드래곤의 송곳니로 만든 전투 도끼.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "드래곤 액스", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【창】찌르기에 특화시킨 짧은 창.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "숏 스피어", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【창】자루를 가능한 한 길게 만든 창.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "롱 스피어", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【창】첨단에 도끼날이 장착된 창.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "할버드", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【창】미스릴로 제작된 창.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "미스릴 스피어", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【창】드래곤의 송곳니로 만든 창.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "드래곤 스피어", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【글러브】권두에 가시가 달린 격투용 글러브.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "세스터스", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【발톱】짧은 4개의 발톱이 장착된 격투 무기.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "바그나우", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【발톱】강철 갈고리 발톱이 장착된 격투 무기.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "아이언 클로", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【발톱】미스릴 갈고리 발톱이 장착된 격투 무기.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "미스릴 클로", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【발톱】드래곤의 갈고리 발톱이 장착된 격투 무기.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "드래곤 클로", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【활】사냥용으로 제작된 짧은 활.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "숏 보우", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【활】 위력을 높인 전투용 장궁.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "롱보우", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【활】 강력한 탄력으로 화살을 발사하는 석궁.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "크로스보우", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【활】 강력한 탄력으로 미스릴 화살을 발사하는 석궁.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "미스릴 보우", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【활】 드래곤의 수염으로 만든 전투용 장궁.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "드래곤 보우", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【단검】 일상생활에도 사용할 수 있는 나이프.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "나이프", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【단검】 근접전에서 사용하는 단도.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "대거", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【단검】 날이 두껍고 튼튼한 단도.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "마셰트", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【단검】 미스릴로 만든 단도.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "미스릴 대거", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "【단검】 드래곤의 송곳니로 만든 단도.", "type": "system_recursive"}
+{"page_id": "static_weapons", "speaker": null, "text": "드래곤 대거", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "-----갑옷 계열", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【일반 장비】 통기성이 높은 천옷.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "천옷", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【일반 장비】무두질한 가죽으로 만든 조끼.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "가죽 조끼", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【일반 장비】가혹한 여행에도 견딜 수 있는 튼튼한 옷.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "모험가의 옷", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "평범한 셔츠.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "평범한 셔츠", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "미니스커트.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "스커트", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "머리를 묶기 위한 리본.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "리본", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "타이츠보다는 양말파.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "양말", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【경장비】청동제 흉갑.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "브론즈 흉갑", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【경장비】강철제 흉갑.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "아이언 흉갑", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【경장비】미스릴로 만든 흉갑.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "미스릴 흉갑", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【경장비】드래곤의 비늘로 만든 흉갑.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "드래곤 브레스트", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【중장비】청동으로 만든 갑옷.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "브론즈 아머", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【중장비】강철로 만든 갑옷.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "아이언 아머", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【중장비】미스릴로 만든 갑옷.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "미스릴 아머", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【중장비】드래곤의 비늘로 만든 갑옷.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "드래곤 아머", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】널리 보급된 일반적인 로브.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "목화 로브", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】비단으로 만든 고급 망토.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "비단 망토", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】룬 문자가 새겨진 로브.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "술사의 로브", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】마력이 짜여진 로브.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "현자의 로브", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】정령왕의 힘이 깃든 최종형 망토.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "엘리멘탈 망토", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "-----방패 계열", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【소형 방패】공격을 흘려내기 위한 소형 방패.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "버클러", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【소형 방패】철제 테두리로 보강한 목제 원형 방패.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "라운드 버클러", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【소형 방패】표면에 공격용 가시가 달린 원형 방패.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "스파이크 버클러", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【소형 방패】미스릴로 제작된 소형 방패.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "미스릴 버클러", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【소형 방패】용의 비늘로 제작된 소형 방패.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "드래곤 버클러", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【대형 방패】아주 평범한 목제 대형 방패.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "우드 실드", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【대형 방패】청동판으로 제작된 대형 방패.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "브론즈 실드", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【대형 방패】강철제 대형 방패.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "아이언 실드", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【대형 방패】미스릴로 제작된 대형 방패.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "미스릴 실드", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【대형 방패】용의 비늘로 제작된 대형 방패.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "드래곤 실드", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】 수호의 마법이 걸린 팔찌.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "우드 팔찌", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】 수호의 마법이 걸린 팔찌.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "브론즈 팔찌", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】 수호의 마법이 걸린 팔찌.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "아이언 팔찌", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】 수호의 마법이 걸린 팔찌.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "미스릴 팔찌", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】 수호의 마법이 걸린 팔찌.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "드래곤 팔찌", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "-----투구 계열", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【일반 장비】 이마를 보호하는 천으로 만든 머리띠.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "머리띠", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【일반 장비】 이마를 보호하는 가죽으로 만든 머리띠.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "가죽 머리띠", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【일반 장비】 가죽으로 만든 모자.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "가죽 모자", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【일반 장비】 겹겹이 감아 머리를 보호하는 두꺼운 천.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "터번", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【일반 장비】 새 깃털이 달린 멋진 모자.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "깃털 달린 모자", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【경장비】무두질한 가죽으로 만든 모자.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "가죽 캡", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【경장비】나무로 만든 경량 헬멧.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "나무 캡", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【경장비】동판으로 강화된 경량 헬멧.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "청동 캡", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【경장비】철판으로 강화된 경량 헬멧.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "철제 캡", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【경장비】미스릴로 강화된 경량 헬멧.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "미스릴 캡", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【경장비】용의 비늘로 강화된 경량 헬멧.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "용 캡", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【중장비】가느다란 사슬을 엮어 만든 두건.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "사슬 두건", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【중장비】두꺼운 청동판으로 만든 투구.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "청동 투구", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【중장비】두꺼운 강철판으로 만든 투구.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "철제 투구", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【중장비】미스릴로 만든 투구.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "미스릴 헬름", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【중장비】용의 비늘로 만든 투구.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "드래곤 헬름", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】무두질한 가죽으로 만든 챙이 넓은 삼각형 모자.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "뾰족 모자", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】수호 마법이 걸린 소박한 관.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "서클릿", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】수호 마법이 걸린 은세공 관.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "실버 서클릿", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】수호 마법이 걸린 순금 관.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "골드 서클릿", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】수호 마법이 걸린 미스릴 관.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "미스릴 서클릿", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【마법 장비】수호 마법이 걸린 현자의 관.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "마스터 서클릿", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "-----장신구 계열", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】방어력을 높여주는 부적.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "가드 스톤", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】방어력을 높여주는 반지.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "가드 링", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 공격력을 높여 주는 부적.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "파워 스톤", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 공격력을 높여 주는 반지.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "파워 링", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 민첩성을 높여 주는 부적.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "스피드 스톤", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 민첩성을 높여 주는 반지.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "스피드 링", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 운을 높여 주는 부적.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "럭키 스톤", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 운을 높여 주는 반지.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "럭키 링", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 마법력을 높여 주는 부적.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "매지컬 스톤", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 마법력을 높여 주는 반지.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "매지컬 링", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 공격 명중률을 높여 주는 부적.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "슈터 스톤", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 공격 명중률을 높여 주는 부적.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "슈터 링", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 MP 소모를 20% 줄여 주는 부적.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "마스터 스톤", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 MP 소모를 50% 줄여 주는 반지.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "마스터 링", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 독・마비에 걸리기 어려워지는 반지.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "포이즌 가드", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 독・마비를 완전히 막아 주는 반지.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "포이즌 가드 S", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 수면・침묵・혼란・매혹・격노에\n걸리기 어려워지는 반지.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "멘탈 가드", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 수면・침묵・혼란・매혹・격노를\n완전히 막아 주는 반지.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "멘탈 가드 S", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 선제 공격을 할 확률을 올려 주는 장신구.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "에너미 레이더", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 기습 공격을 받지 않게 되는 장신구.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "워닝 벨", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 TP를 다음 전투로 이월하는 장신구.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "TP 스토커", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 TP 충전률이 올라가는 반지.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "갓츠 링", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 MP 소비율을 낮추는 팔찌.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "MP 키퍼", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 네 대정령의 가호 아래\n불, 물, 바람, 땅 속성 공격으로 받는 데미지를 반감한다.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "엘리멘탈 가드", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "【장신구】 명중률을 올리는 장신구.", "type": "system_recursive"}
+{"page_id": "static_armors", "speaker": null, "text": "스펙터클", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1의 공격!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "공격", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "스킬 1번은 공격 커맨드에 대응합니다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은 몸을 지키고 있다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "방어", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "스킬 2번은 방어 커맨드에 대응합니다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아래는, 메뉴를 열었을 때, 전투용 스킬보다\n상단에 표시하고 싶은 스킬용 칸입니다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "-----예비", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "-----적", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단체에 대해 연속해서 공격을 행한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1의 공격!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "연속 공격", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "랜덤한 적 단체에 대해 2회 공격을 행한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1의 공격!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "2회 공격", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "무작위 적 단일 대상에게 3회 공격을 가한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1의 공격!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "3회 공격", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "사용자가 전투에서 이탈한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은 도망쳐 버렸다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "도망치기", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "상황을 살핀다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은 상황을 살피고 있다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "상황 살피기", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상의 HP를 흡수한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1의 흡혈 공격!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "흡혈", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "사용자의 HP를 회복한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은 명상했다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "명상", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상에 마비 바늘을 꽂아 마비 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은 %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "저릿저릿 바늘", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상에게 데미지를 주고, 밸런스를 무너뜨린다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) 몸통 박치기를 했다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "몸통 박치기", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 개체에게 번개 속성 데미지를 주고 마비 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "전격", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 개체에게 점액을 부착시켜 민첩성을 떨어뜨린다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) 점액을 뿜어냈다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "점액", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 개체에게 독액을 뿜어 독 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 사용했다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "독액", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "사용자의 투지를 불러일으켜 능력을 강화한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) 투지를 불러일으켰다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "포효", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 개체의 MP를 흡수한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) 기묘한 춤을 췄다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "기묘한 춤", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 개체를 노려보며 마비 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "마비 응시", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단체를 암흑 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "눈멀기", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체를 암흑 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "모래 안개", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체를 암흑 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "섬광", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체를 독 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "맹독의 안개", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체를 수면 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) 자장가를 불렀다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "자장가", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체를 매혹시킨다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) 유혹의 노래를 불렀다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "유혹의 노래", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체의 마법을 봉인한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) 침묵의 노래를 불렀다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "침묵의 노래", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체를 혼란 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "초음파", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 땅 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "돌덩이", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 바람 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "낫의 무리", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 불 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "화염 브레스", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 얼음 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "얼음 브레스", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 땅 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) 지진을 일으켰다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "지진", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 물 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) 해일을 일으켰다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "해일", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단체에게 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1의 공격!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "할퀴기", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "-----기본 마법", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 단체의 HP를 회복한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "힐Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 단체의 HP를 회복한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "힐Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 단체의 HP를 회복한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "힐Ⅲ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 전체의 HP를 회복한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "리커버Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 전체의 HP를 회복한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "리커버Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 전체의 HP를 회복한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "리커버Ⅲ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 단독의 독・마비・수면을 치료한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "큐어Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 단독의 전투불능 이외의 상태이상을 치료한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "큐어Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 전체의 전투불능 이외의 상태이상을 치료한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "큐어Ⅲ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 단독을 전투불능에서 부활시킨다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "레이즈Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 단독을 전투불능에서 부활시키고, HP를 크게 회복한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "레이즈Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체를 독 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "포이즌", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체를 암흑 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "블라인드", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체를 혼란 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "컨퓨즈", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체의 마법을 봉인한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "사일런스", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체를 수면 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "슬리프", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체를 마비 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "패럴라이즈", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 단일의 공격력을 올린다.\n2회까지 중첩 가능.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "웨폰 브레스", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체의 공격력을 낮춘다.\n2회까지 중첩 가능.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "웨폰 커스", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 단일 대상의 방어력을 올린다.\n2회까지 중첩 가능.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아머 블레스", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체의 방어력을 낮춘다.\n2회까지 중첩 가능.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아머 커스", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 단일 대상의 마법력을 올린다.\n2회까지 중첩 가능.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "스피릿 블레스", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체의 마법력을 낮춘다.\n2회까지 중첩 가능.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "스피릿 커스", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 단일 대상의 마법 방어력을 올린다.\n2회까지 중첩 가능.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "디바인 블레스", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체의 마법 방어력을 낮춘다.\n2회까지 중첩 가능.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "디바인 커스", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 단체의 민첩성을 올린다.\n2회까지 중첩 가능.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "퀵 무브", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체의 민첩성을 낮춘다.\n2회까지 중첩 가능.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "슬로우 무브", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단체의 HP를 흡수한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "라이프 드레인", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단체의 MP를 흡수한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "마나 드레인", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단체에 화염 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "파이어Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단체에 화염 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "파이어Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단체에 화염 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "파이어Ⅲ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 화염 속성 피해를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "플레임Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 화염 속성 피해를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "플레임Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 화염 속성 피해를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "플레임Ⅲ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상에게 얼음 속성 피해를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아이스Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상에게 얼음 속성 피해를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아이스Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상에게 얼음 속성 피해를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아이스Ⅲ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 얼음 속성 피해를 입힌다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "블리자드Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 얼음 속성 피해를 입힌다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "블리자드Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 얼음 속성 피해를 입힌다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "블리자드Ⅲ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상에게 번개 속성 피해를 입힌다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "선더Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상에게 번개 속성 피해를 입힌다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "선더Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상에게 번개 속성 피해를 입힌다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "선더Ⅲ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 번개 속성 피해를 입힌다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "스파크 I", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 번개 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "스파크 II", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 번개 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "스파크 III", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일에게 물 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "워터 I", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일에게 물 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "워터 II", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 물 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "웨이브 I", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 물 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "웨이브 II", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일에게 땅 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "스톤Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단체에게 토속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "스톤Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 토속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "퀘이크Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 토속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "퀘이크Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단체에게 풍속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "윈드Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단체에게 풍속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "윈드Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 풍속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이(가) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "토네이도Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 바람 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "토네이도Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상에게 빛 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "세인트Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상에게 빛 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "세인트Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 빛 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "스타라이트Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 빛 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "스타라이트Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상에게 어둠 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "셰이드Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상에게 어둠 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "쉐이드Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 어둠 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "다크니스Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 어둠 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "다크니스Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일체에게 방어 무시 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "버스트Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일체에게 방어 무시 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "버스트Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 방어 무시 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "뉴클리어Ⅰ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 방어 무시 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "뉴클리어Ⅱ", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "-----검사 계열 스킬", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상에게 강력한 공격을 가한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "강격", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체를 대상으로 공격을 가한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) 휩쓸었다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "휩쓸기", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상에게 2회 공격을 가한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1의 연속 공격!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "연속 공격", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "사용자의 투지를 불러일으켜 공격력을 올린다.\n2회까지 중첩 가능하다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 사용했다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "기합", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 단일 대상의 HP를 회복한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 행했다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "응급처치", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 대상에게 초강력한 공격을 가한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "소녀의 자세", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체를 대상으로 강공격을 가한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) 휩쓸었다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "스핀 크래시", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "-----승려・마법사 계열 스킬", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 전체의 방어력・마법 방어력을 올린다.\n2회까지 중첩 가능.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) 기도를 올렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "매직 배리어", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "5턴 동안, 사용자의 마법력을 대폭 올린다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "스펠 인핸스", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 전체의 투지를 불러일으켜, 공격력을 올린다.\n2회까지 중첩 가능.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) 응원했다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "응원", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 방어 무시 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "메테오", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "5턴 동안, 불 속성을 부여한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "파이어 웨폰", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "5턴 동안, 얼음 속성을 부여한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아이스 웨폰", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "5턴 동안, 번개 속성을 부여한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "썬더 웨폰", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "5턴 동안, 사용자를 향한 공격 마법을 반사한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 외쳤다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "매직 미러", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "-----기사계 스킬", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "1턴 동안, HP가 적은 아군을 자동적으로 막아준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) 동료를 막고 있다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "방어", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "누구보다 빠르게 적 단일체에게 공격을 행한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "매의 돌진", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일체에 대해 2회 공격을 행한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "이단 찌르기", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에 방어 무시 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "갑옷 관통", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아군 전체의 투지를 불러일으켜, 공격력을 올린다.\n2회까지 중첩 가능하다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이 일갈했다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "일갈", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체를 상대로 공격을 가한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이 %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "풍차", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "사용자의 TP를 약간 증가시킨다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이 마음을 무(無)로 만들었다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "심두멸각", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 4체를 상대로 무작위로 4회 공격을 가한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이 %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "난무 찌르기", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "----- 도적 계열 스킬", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일체를 암흑 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이 %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "눈멀기", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "사용자의 민첩성을 올린다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이 %2를 시작했다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "준비 운동", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체를 암흑 상태로 만든다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1이 %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "섬광탄", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "아이템 드롭률을 올린다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) 틈을 노리고 있다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "틈 노리기", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에 바람 속성 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "바람 부르기", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "표적이 되기 어렵게 한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) 숨었다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "숨기", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "-----격투가 계열 스킬", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에 데미지를 주고 밸런스를 무너뜨린다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "발걸기", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "사용자의 약화 효과를 치료한다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 사용했다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "기공술", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에 큰 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2을(를) 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "돌려차기", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 개체에게 방어 무시 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "맹호난무", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "-----헌터 계열 스킬", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 개체의 공격력과 방어력을 낮춘다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "포인트 샷", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체의 발밑을 쏘아 맞추고, 밸런스를 무너뜨린다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "스턴 샷", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 단일 개체에게 5회 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "팀 샷", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "적 전체에게 2회 데미지를 준다.", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "%1은(는) %2를 날렸다!", "type": "system_recursive"}
+{"page_id": "static_skills", "speaker": null, "text": "레인 샷", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 쓰러졌다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1을(를) 쓰러뜨렸다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 일어섰다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "전투 불능", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "상태 1번은 HP가 0일 때 부여됩니다.", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 쓰러졌다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1을(를) 쓰러뜨렸다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 일어섰다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "HP 0(행동 가능)", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "상태 1번은 HP가 0일 때 부여됩니다.\n게임 오버가 아닙니다.", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "불사신", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "더러움", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 침묵했다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1을(를) 침묵시켰다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1의 침묵이 풀렸다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "침묵", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 격앙했다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1을(를) 격앙시켰다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 정신을 차렸다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "격앙", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 혼란에 빠졌다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1을(를) 혼란시켰다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 정신을 차렸다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "혼란", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 매혹되었다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1을(를) 매혹시켰다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 정신을 차렸다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "매혹", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 잠들었다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1을(를) 잠들게 했다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 잠들어 있다.", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 눈을 떴다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "수면", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "방어", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 마비되어 움직일 수 없게 되었다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1을(를) 마비시켰다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 몸이 마비되어 움직일 수 없다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1의 마비가 풀렸다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "마비", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 균형을 잃었다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 균형을 잃었다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 균형을 잃고 있다……", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1은(는) 자세를 바로잡았다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "스턴", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "HP 회복", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "MP 회복", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "TP 회복", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "마법 반사", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "대신 맞기", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1(은)는 집중 공격 대상이 되었다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "도발", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1(은)는 공격 대상에서 벗어났다!", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "숨기", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "반격", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "상태 이상 방지", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "MP 소비 감소", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1(이)가 불의 힘을 두르고 있다.", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1(이)가 불의 힘을 두르고 있다.", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "불의 힘", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1(이)가 얼음의 힘을 두르고 있다.", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1(이)가 얼음의 힘을 두르고 있다.", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "얼음의 힘", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1(이)가 번개의 힘을 두르고 있다.", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "%1(이)가 번개의 힘을 두르고 있다.", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "번개의 힘", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "인카운트 반감", "type": "system_recursive"}
+{"page_id": "static_states", "speaker": null, "text": "현상금・아이템 2배", "type": "system_recursive"}
+{"page_id": "static_classes", "speaker": null, "text": "여자아이", "type": "system_recursive"}
+{"page_id": "static_classes", "speaker": null, "text": "쇼타", "type": "system_recursive"}
+{"page_id": "static_enemies", "speaker": null, "text": "고블린", "type": "system_recursive"}
+{"page_id": "static_enemies", "speaker": null, "text": "놈", "type": "system_recursive"}
+{"page_id": "static_enemies", "speaker": null, "text": "크로우", "type": "system_recursive"}
+{"page_id": "static_enemies", "speaker": null, "text": "트렌트", "type": "system_recursive"}
+{"page_id": "static_enemies", "speaker": null, "text": "마수", "type": "system_recursive"}
+{"page_id": "static_troops", "speaker": null, "text": "고블린*2", "type": "system_recursive"}
+{"page_id": "static_troops", "speaker": null, "text": "놈*2", "type": "system_recursive"}
+{"page_id": "static_troops", "speaker": null, "text": "크로우*2", "type": "system_recursive"}
+{"page_id": "static_troops", "speaker": null, "text": "트렌트", "type": "system_recursive"}
+{"page_id": "static_troops", "speaker": null, "text": "마수", "type": "system_recursive"}
