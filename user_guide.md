@@ -72,26 +72,29 @@ python trans4/02_translate/run_translation.py
 
 ## 3. 병합 (Merge) 단계
 
-번역된 한국어 텍스트를 게임 파일에 덮어쓰는 과정입니다.
-
-### ⚠️ 주의사항
-*   **반드시 원본 데이터 폴더(`새 폴더` 또는 `data`)를 백업해두세요!**
-*   실수로 원본이 훼손되면 게임 실행이 불가능해질 수 있습니다.
+번역된 한국어 텍스트를 게임 파일에 넣는 과정입니다. **원본 폴더는 수정하지 않고**, 지정한 출력 폴더에 번역이 적용된 복사본을 만듭니다.
 
 ### 실행 명령어
 ```bash
-python trans4/03_merge/merger.py --base-dir "새 폴더" --mapping-file "trans4/output/mapping.json" --translation-file "trans4/output/korean_texts.txt"
+python 03_merge/merger.py --data-dir "원본_data_폴더" --output-dir "번역본/data"
 ```
-*(참고: `korean_texts.txt`는 번역 단계에서 생성된 최종 결과 파일명이어야 합니다. 청크 파일들을 하나로 합친 파일입니다.)*
 
 ### 파라미터 설명
-*   `--base-dir`: 텍스트를 덮어쓸 게임 데이터 폴더입니다.
-*   `--mapping-file`: 추출 단계에서 만든 `mapping.json` 파일 경로입니다.
-*   `--translation-file`: 번역된 한국어 텍스트 파일 경로입니다.
+*   `--data-dir`: 원본 게임 데이터 폴더입니다. 읽기만 합니다.
+*   `--output-dir`: 번역이 적용된 data 폴더가 만들어질 위치입니다. 원본 폴더와 같으면 실행을 거부합니다.
+*   `--mapping`: 기본값 `output/mapping.json`
+*   `--translations`: 기본값 `output/translated_texts.txt`. risky 번역본이 있으면 뒤에 함께 적습니다.
+*   `--include-risky`: 스크립트·주석 등 risky 번역도 적용합니다. (기본은 제외)
+
+### 안전장치
+*   번역 줄과 매핑을 `line_index`로 1:1 연결합니다. 번역 파일 줄 수나 `page_id`가 맞지 않으면 **아무것도 쓰지 않고 중단**합니다.
+*   적용 직전에 게임 파일의 원문이 추출 당시(`original_key`)와 같은지 확인합니다. 게임이 업데이트되어 원문이 바뀐 곳은 건너뜁니다.
+*   번역문의 제어문자(모양·개수·순서)가 원문과 하나라도 다르면 그 줄은 적용하지 않습니다.
+*   `note`, `faceName` 같은 파일명·플러그인 설정 경로는 적용하지 않습니다.
+*   건너뛴 줄은 `output/merge_report.jsonl`에 사유와 함께 기록됩니다.
 
 ### 결과 확인
-*   `새 폴더` 안의 JSON 파일들이 수정됩니다.
-*   게임(Game.exe)을 실행하여 한글이 나오는지 확인합니다.
+*   출력 폴더의 data를 게임 폴더의 data와 바꿔 넣고 게임(Game.exe)을 실행해 확인합니다.
 
 ---
 
