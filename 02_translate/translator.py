@@ -2,7 +2,7 @@
 RPG Maker 번역기 v3 (토큰 최소화)
 
 LLM에게는 제어문자를 뺀 순수 문장만, 중복 없이, 짧은 `ID|화자|원문` 형식으로 보낸다.
-- 제어문자: text_codec 이 떼어냈다가 코드로 복원 (LLM이 태그를 망가뜨릴 수 없음)
+- 제어문자: text_codec 이 떼어냈다가 원본 문자열로 복원, 태그 모양·개수·순서가 원문과 다르면 거부
 - 중복 제거: 같은 문장은 한 번만 번역
 - 고정 번역: glossary 의 고정_번역과 정확히 일치하면 LLM 호출 없이 치환
 - 줄 단위 검증: 실패한 줄만 모아서 재요청 (배치 전체 재시도 X)
@@ -18,7 +18,7 @@ from typing import List, Dict, Any, Optional
 
 import aiohttp
 
-from text_codec import encode, decode, validate, Encoded
+from text_codec import encode, decode, DecodeError, Encoded
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 LINE_RE = re.compile(r'^\s*(\d+)\s*\|(.*)$')
@@ -144,11 +144,11 @@ class Translator:
             if u.uid not in parsed:
                 u.last_error = "응답에 해당 ID 없음"
                 continue
-            reason = validate(u.enc, parsed[u.uid])
-            if reason:
-                u.last_error = reason
-            else:
+            try:
+                decode(u.enc, parsed[u.uid])   # 태그 복원까지 실제로 해 보고 통과한 것만 채택
                 u.result = parsed[u.uid]
+            except DecodeError as e:
+                u.last_error = str(e)
 
     async def translate_all(self, units: List[Unit], batch_size: int, max_retries: int,
                             on_progress=None):
@@ -213,7 +213,11 @@ class Translator:
                 if enc.needs_llm and translated is None:
                     failed_log.append({**item, "error": units_by_core[core].last_error})
                 elif enc.needs_llm:
-                    new_item["text"] = decode(enc, translated)
+                    try:
+                        new_item["text"] = decode(enc, translated)
+                    except DecodeError as e:
+                        # 고정 번역/캐시 값이 이 줄의 태그 구성과 안 맞는 경우 → 원문 유지
+                        failed_log.append({**item, "error": str(e)})
                 f.write(json.dumps(new_item, ensure_ascii=False) + "\n")
 
         failed_path = output_file.with_name(output_file.stem + ".failed.jsonl")

@@ -5,7 +5,8 @@ Output: one line per input item, `ID|Korean translation`. Nothing else.
 
 Rules:
 - Output every ID exactly once. Do not merge or split items.
-- Keep `{1}`, `{2}`... and `<br>` exactly as in the text.
+- Keep `{1}`, `{2}`... and `<br>` exactly, and keep `{1}`, `{2}`... in the same order.
+- Never write backslashes (\).
 - Use the speaker and neighboring lines only as context for tone.
 - Keep sound effects, moans and ellipses (…) natural in Korean.
 
